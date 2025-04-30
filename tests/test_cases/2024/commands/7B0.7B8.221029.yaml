@@ -1,0 +1,130 @@
+command_id: 7B0.7B8.221029
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7B8056210290000
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B8056210290001
+  expected_values:
+    FORESTER_STEER_ANGLE: 1
+- response: 7B8056210290002
+  expected_values:
+    FORESTER_STEER_ANGLE: 2
+- response: 7B8056210290003
+  expected_values:
+    FORESTER_STEER_ANGLE: 3
+- response: 7B8056210290004
+  expected_values:
+    FORESTER_STEER_ANGLE: 4
+- response: 7B8056210290005
+  expected_values:
+    FORESTER_STEER_ANGLE: 5
+- response: 7B8056210290006
+  expected_values:
+    FORESTER_STEER_ANGLE: 6
+- response: 7B805621029000A
+  expected_values:
+    FORESTER_STEER_ANGLE: 10
+- response: 7B805621029000D
+  expected_values:
+    FORESTER_STEER_ANGLE: 13
+- response: 7B8056210290014
+  expected_values:
+    FORESTER_STEER_ANGLE: 20
+- response: 7B8056210290019
+  expected_values:
+    FORESTER_STEER_ANGLE: 25
+- response: 7B805621029001E
+  expected_values:
+    FORESTER_STEER_ANGLE: 30
+- response: 7B805621029001F
+  expected_values:
+    FORESTER_STEER_ANGLE: 31
+- response: 7B8056210290031
+  expected_values:
+    FORESTER_STEER_ANGLE: 49
+- response: 7B8056210290037
+  expected_values:
+    FORESTER_STEER_ANGLE: 55
+- response: 7B8056210290045
+  expected_values:
+    FORESTER_STEER_ANGLE: 69
+- response: 7B805621029005A
+  expected_values:
+    FORESTER_STEER_ANGLE: 90
+- response: 7B8056210290076
+  expected_values:
+    FORESTER_STEER_ANGLE: 118
+- response: 7B8056210290087
+  expected_values:
+    FORESTER_STEER_ANGLE: 135
+- response: 7B805621029009D
+  expected_values:
+    FORESTER_STEER_ANGLE: 157
+- response: 7B80562102900D9
+  expected_values:
+    FORESTER_STEER_ANGLE: 217
+- response: 7B8056210290107
+  expected_values:
+    FORESTER_STEER_ANGLE: 263
+- response: 7B805621029FE38
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FECC
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FEF4
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FEFF
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FF43
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FF5C
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FF73
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FF7D
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFB6
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFCC
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFD9
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFF6
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFF7
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFF9
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFFA
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFFB
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFFC
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFFD
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFFE
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFFF
+  expected_values:
+    FORESTER_STEER_ANGLE: 0

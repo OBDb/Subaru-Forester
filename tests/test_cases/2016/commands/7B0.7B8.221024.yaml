@@ -1,0 +1,262 @@
+command_id: 7B0.7B8.221024
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7B8056210240000
+  expected_values:
+    FORESTER_FR_VSS: 0
+- response: 7B8056210240040
+  expected_values:
+    FORESTER_FR_VSS: 64
+- response: 7B8056210240046
+  expected_values:
+    FORESTER_FR_VSS: 70
+- response: 7B8056210240049
+  expected_values:
+    FORESTER_FR_VSS: 73
+- response: 7B8056210240059
+  expected_values:
+    FORESTER_FR_VSS: 89
+- response: 7B8056210240072
+  expected_values:
+    FORESTER_FR_VSS: 114
+- response: 7B805621024007A
+  expected_values:
+    FORESTER_FR_VSS: 122
+- response: 7B80562102400B0
+  expected_values:
+    FORESTER_FR_VSS: 176
+- response: 7B80562102400D2
+  expected_values:
+    FORESTER_FR_VSS: 210
+- response: 7B80562102400D8
+  expected_values:
+    FORESTER_FR_VSS: 216
+- response: 7B80562102400DD
+  expected_values:
+    FORESTER_FR_VSS: 221
+- response: 7B80562102400E1
+  expected_values:
+    FORESTER_FR_VSS: 225
+- response: 7B80562102400E2
+  expected_values:
+    FORESTER_FR_VSS: 226
+- response: 7B80562102400E5
+  expected_values:
+    FORESTER_FR_VSS: 229
+- response: 7B8056210240106
+  expected_values:
+    FORESTER_FR_VSS: 262
+- response: 7B805621024010E
+  expected_values:
+    FORESTER_FR_VSS: 270
+- response: 7B8056210240111
+  expected_values:
+    FORESTER_FR_VSS: 273
+- response: 7B805621024012B
+  expected_values:
+    FORESTER_FR_VSS: 299
+- response: 7B8056210240151
+  expected_values:
+    FORESTER_FR_VSS: 337
+- response: 7B8056210240163
+  expected_values:
+    FORESTER_FR_VSS: 355
+- response: 7B8056210240170
+  expected_values:
+    FORESTER_FR_VSS: 368
+- response: 7B8056210240172
+  expected_values:
+    FORESTER_FR_VSS: 370
+- response: 7B8056210240173
+  expected_values:
+    FORESTER_FR_VSS: 371
+- response: 7B8056210240176
+  expected_values:
+    FORESTER_FR_VSS: 374
+- response: 7B8056210240178
+  expected_values:
+    FORESTER_FR_VSS: 376
+- response: 7B805621024017B
+  expected_values:
+    FORESTER_FR_VSS: 379
+- response: 7B805621024018C
+  expected_values:
+    FORESTER_FR_VSS: 396
+- response: 7B805621024019D
+  expected_values:
+    FORESTER_FR_VSS: 413
+- response: 7B805621024019E
+  expected_values:
+    FORESTER_FR_VSS: 414
+- response: 7B80562102401BB
+  expected_values:
+    FORESTER_FR_VSS: 443
+- response: 7B80562102401C7
+  expected_values:
+    FORESTER_FR_VSS: 455
+- response: 7B80562102401CC
+  expected_values:
+    FORESTER_FR_VSS: 460
+- response: 7B80562102401CD
+  expected_values:
+    FORESTER_FR_VSS: 461
+- response: 7B80562102401D4
+  expected_values:
+    FORESTER_FR_VSS: 468
+- response: 7B80562102401F2
+  expected_values:
+    FORESTER_FR_VSS: 498
+- response: 7B80562102401F5
+  expected_values:
+    FORESTER_FR_VSS: 501
+- response: 7B80562102401F8
+  expected_values:
+    FORESTER_FR_VSS: 504
+- response: 7B80562102401FD
+  expected_values:
+    FORESTER_FR_VSS: 509
+- response: 7B8056210240206
+  expected_values:
+    FORESTER_FR_VSS: 518
+- response: 7B8056210240207
+  expected_values:
+    FORESTER_FR_VSS: 519
+- response: 7B805621024020C
+  expected_values:
+    FORESTER_FR_VSS: 524
+- response: 7B8056210240216
+  expected_values:
+    FORESTER_FR_VSS: 534
+- response: 7B8056210240232
+  expected_values:
+    FORESTER_FR_VSS: 562
+- response: 7B8056210240246
+  expected_values:
+    FORESTER_FR_VSS: 582
+- response: 7B8056210240248
+  expected_values:
+    FORESTER_FR_VSS: 584
+- response: 7B805621024024B
+  expected_values:
+    FORESTER_FR_VSS: 587
+- response: 7B8056210240253
+  expected_values:
+    FORESTER_FR_VSS: 595
+- response: 7B8056210240257
+  expected_values:
+    FORESTER_FR_VSS: 599
+- response: 7B8056210240262
+  expected_values:
+    FORESTER_FR_VSS: 610
+- response: 7B8056210240273
+  expected_values:
+    FORESTER_FR_VSS: 627
+- response: 7B8056210240275
+  expected_values:
+    FORESTER_FR_VSS: 629
+- response: 7B8056210240278
+  expected_values:
+    FORESTER_FR_VSS: 632
+- response: 7B80562102402AC
+  expected_values:
+    FORESTER_FR_VSS: 684
+- response: 7B80562102402B1
+  expected_values:
+    FORESTER_FR_VSS: 689
+- response: 7B80562102402B2
+  expected_values:
+    FORESTER_FR_VSS: 690
+- response: 7B80562102402B8
+  expected_values:
+    FORESTER_FR_VSS: 696
+- response: 7B80562102402B9
+  expected_values:
+    FORESTER_FR_VSS: 697
+- response: 7B80562102402C2
+  expected_values:
+    FORESTER_FR_VSS: 706
+- response: 7B80562102402C9
+  expected_values:
+    FORESTER_FR_VSS: 713
+- response: 7B80562102402CF
+  expected_values:
+    FORESTER_FR_VSS: 719
+- response: 7B80562102402DC
+  expected_values:
+    FORESTER_FR_VSS: 732
+- response: 7B80562102402E5
+  expected_values:
+    FORESTER_FR_VSS: 741
+- response: 7B80562102402EB
+  expected_values:
+    FORESTER_FR_VSS: 747
+- response: 7B80562102402EE
+  expected_values:
+    FORESTER_FR_VSS: 750
+- response: 7B80562102402F2
+  expected_values:
+    FORESTER_FR_VSS: 754
+- response: 7B80562102402FA
+  expected_values:
+    FORESTER_FR_VSS: 762
+- response: 7B8056210240304
+  expected_values:
+    FORESTER_FR_VSS: 772
+- response: 7B805621024030A
+  expected_values:
+    FORESTER_FR_VSS: 778
+- response: 7B8056210240320
+  expected_values:
+    FORESTER_FR_VSS: 800
+- response: 7B8056210240349
+  expected_values:
+    FORESTER_FR_VSS: 841
+- response: 7B805621024034A
+  expected_values:
+    FORESTER_FR_VSS: 842
+- response: 7B805621024034C
+  expected_values:
+    FORESTER_FR_VSS: 844
+- response: 7B8056210240358
+  expected_values:
+    FORESTER_FR_VSS: 856
+- response: 7B8056210240368
+  expected_values:
+    FORESTER_FR_VSS: 872
+- response: 7B8056210240390
+  expected_values:
+    FORESTER_FR_VSS: 912
+- response: 7B8056210240395
+  expected_values:
+    FORESTER_FR_VSS: 917
+- response: 7B80562102403A1
+  expected_values:
+    FORESTER_FR_VSS: 929
+- response: 7B80562102403A3
+  expected_values:
+    FORESTER_FR_VSS: 931
+- response: 7B80562102403F2
+  expected_values:
+    FORESTER_FR_VSS: 1010
+- response: 7B805621024046E
+  expected_values:
+    FORESTER_FR_VSS: 1134
+- response: 7B8056210240499
+  expected_values:
+    FORESTER_FR_VSS: 1177
+- response: 7B805621024049C
+  expected_values:
+    FORESTER_FR_VSS: 1180
+- response: 7B80562102405D1
+  expected_values:
+    FORESTER_FR_VSS: 1489
+- response: 7B80562102406DC
+  expected_values:
+    FORESTER_FR_VSS: 1756
+- response: 7B805621024073D
+  expected_values:
+    FORESTER_FR_VSS: 1853
+- response: 7B8056210240755
+  expected_values:
+    FORESTER_FR_VSS: 1877
