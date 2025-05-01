@@ -1,0 +1,13 @@
+command_id: 753.75B.221028
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    75B1013621028015074
+    75B211801506D850150
+    75B227A0F0150745F00
+  expected_values:
+    FORESTER_TID1: 86132
+    FORESTER_TID2: 1573200
+    FORESTER_TID3: 7177473
+    FORESTER_TID4: 5274127

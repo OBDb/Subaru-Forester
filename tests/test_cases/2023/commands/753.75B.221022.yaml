@@ -1,0 +1,52 @@
+command_id: 753.75B.221022
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 75B07621022B0AEABAA
+  expected_values:
+    FORESTER_TP_FL: 34
+    FORESTER_TP_FR: 34.2
+    FORESTER_TP_RL: 35.2
+    FORESTER_TP_RR: 34.8
+- response: 75B07621022B1AEABAA
+  expected_values:
+    FORESTER_TP_FL: 34
+    FORESTER_TP_FR: 34.2
+    FORESTER_TP_RL: 35.4
+    FORESTER_TP_RR: 34.8
+- response: 75B07621022B2AEABAA
+  expected_values:
+    FORESTER_TP_FL: 34
+    FORESTER_TP_FR: 34.2
+    FORESTER_TP_RL: 35.6
+    FORESTER_TP_RR: 34.8
+- response: 75B07621022B3AFABAB
+  expected_values:
+    FORESTER_TP_FL: 34.2
+    FORESTER_TP_FR: 34.2
+    FORESTER_TP_RL: 35.8
+    FORESTER_TP_RR: 35
+- response: 75B07621022B4AFACAB
+  expected_values:
+    FORESTER_TP_FL: 34.2
+    FORESTER_TP_FR: 34.4
+    FORESTER_TP_RL: 36
+    FORESTER_TP_RR: 35
+- response: 75B07621022B6B2AEAC
+  expected_values:
+    FORESTER_TP_FL: 34.4
+    FORESTER_TP_FR: 34.8
+    FORESTER_TP_RL: 36.4
+    FORESTER_TP_RR: 35.6
+- response: 75B07621022B6B2AFAC
+  expected_values:
+    FORESTER_TP_FL: 34.4
+    FORESTER_TP_FR: 35
+    FORESTER_TP_RL: 36.4
+    FORESTER_TP_RR: 35.6
+- response: 75B07621022B6B2AFAD
+  expected_values:
+    FORESTER_TP_FL: 34.6
+    FORESTER_TP_FR: 35
+    FORESTER_TP_RL: 36.4
+    FORESTER_TP_RR: 35.6
