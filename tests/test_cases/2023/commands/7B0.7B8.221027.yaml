@@ -1,0 +1,31 @@
+command_id: 7B0.7B8.221027
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7B8056210270000
+  expected_values:
+    FORESTER_RL_VSS: 0
+- response: 7B8056210270080
+  expected_values:
+    FORESTER_RL_VSS: 128
+- response: 7B805621027009D
+  expected_values:
+    FORESTER_RL_VSS: 157
+- response: 7B80562102701FD
+  expected_values:
+    FORESTER_RL_VSS: 509
+- response: 7B8056210270408
+  expected_values:
+    FORESTER_RL_VSS: 1032
+- response: 7B8056210270444
+  expected_values:
+    FORESTER_RL_VSS: 1092
+- response: 7B8056210270567
+  expected_values:
+    FORESTER_RL_VSS: 1383
+- response: 7B80562102706BF
+  expected_values:
+    FORESTER_RL_VSS: 1727
+- response: 7B805621027084F
+  expected_values:
+    FORESTER_RL_VSS: 2127
