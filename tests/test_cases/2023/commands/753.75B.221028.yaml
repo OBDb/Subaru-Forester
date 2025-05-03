@@ -3,6 +3,15 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
+    75B1013621028014E63
+    75B2106014E81AB014E
+    75B22889E014E76F200
+  expected_values:
+    FORESTER_TID1: 85603
+    FORESTER_TID2: 393550
+    FORESTER_TID3: 8497921
+    FORESTER_TID4: 5146782
+- response: |-
     75B1013621028015074
     75B211801506D850150
     75B227A0F0150745F00

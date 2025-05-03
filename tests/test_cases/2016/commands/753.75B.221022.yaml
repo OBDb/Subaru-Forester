@@ -8,18 +8,78 @@ test_cases:
     FORESTER_TP_FR: 0
     FORESTER_TP_RL: 0
     FORESTER_TP_RR: 0
+- response: 75B07621022000000CF
+  expected_values:
+    FORESTER_TP_FL: 41.4
+    FORESTER_TP_FR: 0
+    FORESTER_TP_RL: 0
+    FORESTER_TP_RR: 0
 - response: 75B076210220000CC00
   expected_values:
     FORESTER_TP_FL: 0
     FORESTER_TP_FR: 40.8
     FORESTER_TP_RL: 0
     FORESTER_TP_RR: 0
+- response: 75B0762102200D40000
+  expected_values:
+    FORESTER_TP_FL: 0
+    FORESTER_TP_FR: 0
+    FORESTER_TP_RL: 0
+    FORESTER_TP_RR: 42.4
+- response: 75B0762102200D4CFD3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.4
+    FORESTER_TP_RL: 0
+    FORESTER_TP_RR: 42.4
+- response: 75B07621022C2C4C3C4
+  expected_values:
+    FORESTER_TP_FL: 39.2
+    FORESTER_TP_FR: 39
+    FORESTER_TP_RL: 38.8
+    FORESTER_TP_RR: 39.2
+- response: 75B07621022C2C4C4C5
+  expected_values:
+    FORESTER_TP_FL: 39.4
+    FORESTER_TP_FR: 39.2
+    FORESTER_TP_RL: 38.8
+    FORESTER_TP_RR: 39.2
+- response: 75B07621022C2C4C4C6
+  expected_values:
+    FORESTER_TP_FL: 39.6
+    FORESTER_TP_FR: 39.2
+    FORESTER_TP_RL: 38.8
+    FORESTER_TP_RR: 39.2
+- response: 75B07621022C2C4C5C7
+  expected_values:
+    FORESTER_TP_FL: 39.8
+    FORESTER_TP_FR: 39.4
+    FORESTER_TP_RL: 38.8
+    FORESTER_TP_RR: 39.2
+- response: 75B07621022C2C6C5C7
+  expected_values:
+    FORESTER_TP_FL: 39.8
+    FORESTER_TP_FR: 39.4
+    FORESTER_TP_RL: 38.8
+    FORESTER_TP_RR: 39.6
+- response: 75B07621022C3C6C4C7
+  expected_values:
+    FORESTER_TP_FL: 39.8
+    FORESTER_TP_FR: 39.2
+    FORESTER_TP_RL: 39
+    FORESTER_TP_RR: 39.6
 - response: 75B07621022C4C5C5C6
   expected_values:
     FORESTER_TP_FL: 39.6
     FORESTER_TP_FR: 39.4
     FORESTER_TP_RL: 39.2
     FORESTER_TP_RR: 39.4
+- response: 75B07621022C4C6C5C8
+  expected_values:
+    FORESTER_TP_FL: 40
+    FORESTER_TP_FR: 39.4
+    FORESTER_TP_RL: 39.2
+    FORESTER_TP_RR: 39.6
 - response: 75B07621022C4C6C6C9
   expected_values:
     FORESTER_TP_FL: 40.2
@@ -32,6 +92,12 @@ test_cases:
     FORESTER_TP_FR: 39.4
     FORESTER_TP_RL: 39.2
     FORESTER_TP_RR: 39.8
+- response: 75B07621022C4C8C5C8
+  expected_values:
+    FORESTER_TP_FL: 40
+    FORESTER_TP_FR: 39.4
+    FORESTER_TP_RL: 39.2
+    FORESTER_TP_RR: 40
 - response: 75B07621022C5C6C5C8
   expected_values:
     FORESTER_TP_FL: 40
@@ -62,6 +128,12 @@ test_cases:
     FORESTER_TP_FR: 39.6
     FORESTER_TP_RL: 39.4
     FORESTER_TP_RR: 39.8
+- response: 75B07621022C5C7C7C8
+  expected_values:
+    FORESTER_TP_FL: 40
+    FORESTER_TP_FR: 39.8
+    FORESTER_TP_RL: 39.4
+    FORESTER_TP_RR: 39.8
 - response: 75B07621022C5C7C7C9
   expected_values:
     FORESTER_TP_FL: 40.2
@@ -74,54 +146,198 @@ test_cases:
     FORESTER_TP_FR: 39.6
     FORESTER_TP_RL: 39.4
     FORESTER_TP_RR: 40
+- response: 75B07621022C5C8C6C9
+  expected_values:
+    FORESTER_TP_FL: 40.2
+    FORESTER_TP_FR: 39.6
+    FORESTER_TP_RL: 39.4
+    FORESTER_TP_RR: 40
+- response: 75B07621022C5C8C7CA
+  expected_values:
+    FORESTER_TP_FL: 40.4
+    FORESTER_TP_FR: 39.8
+    FORESTER_TP_RL: 39.4
+    FORESTER_TP_RR: 40
+- response: 75B07621022C5C8C8CA
+  expected_values:
+    FORESTER_TP_FL: 40.4
+    FORESTER_TP_FR: 40
+    FORESTER_TP_RL: 39.4
+    FORESTER_TP_RR: 40
 - response: 75B07621022C6C8C7C9
   expected_values:
     FORESTER_TP_FL: 40.2
     FORESTER_TP_FR: 39.8
     FORESTER_TP_RL: 39.6
     FORESTER_TP_RR: 40
+- response: 75B07621022C6C9C7CB
+  expected_values:
+    FORESTER_TP_FL: 40.6
+    FORESTER_TP_FR: 39.8
+    FORESTER_TP_RL: 39.6
+    FORESTER_TP_RR: 40.2
+- response: 75B07621022C6C9C8CB
+  expected_values:
+    FORESTER_TP_FL: 40.6
+    FORESTER_TP_FR: 40
+    FORESTER_TP_RL: 39.6
+    FORESTER_TP_RR: 40.2
+- response: 75B07621022C6CAC8CC
+  expected_values:
+    FORESTER_TP_FL: 40.8
+    FORESTER_TP_FR: 40
+    FORESTER_TP_RL: 39.6
+    FORESTER_TP_RR: 40.4
+- response: 75B07621022C6CBCACC
+  expected_values:
+    FORESTER_TP_FL: 40.8
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 39.6
+    FORESTER_TP_RR: 40.6
 - response: 75B07621022C7C8C7C9
   expected_values:
     FORESTER_TP_FL: 40.2
     FORESTER_TP_FR: 39.8
     FORESTER_TP_RL: 39.8
     FORESTER_TP_RR: 40
+- response: 75B07621022C7CBCACD
+  expected_values:
+    FORESTER_TP_FL: 41
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 39.8
+    FORESTER_TP_RR: 40.6
 - response: 75B07621022C8C9C8CA
   expected_values:
     FORESTER_TP_FL: 40.4
     FORESTER_TP_FR: 40
     FORESTER_TP_RL: 40
     FORESTER_TP_RR: 40.2
+- response: 75B07621022C8CAC9CB
+  expected_values:
+    FORESTER_TP_FL: 40.6
+    FORESTER_TP_FR: 40.2
+    FORESTER_TP_RL: 40
+    FORESTER_TP_RR: 40.4
+- response: 75B07621022C8CBC8CB
+  expected_values:
+    FORESTER_TP_FL: 40.6
+    FORESTER_TP_FR: 40
+    FORESTER_TP_RL: 40
+    FORESTER_TP_RR: 40.6
+- response: 75B07621022C8CBC9CC
+  expected_values:
+    FORESTER_TP_FL: 40.8
+    FORESTER_TP_FR: 40.2
+    FORESTER_TP_RL: 40
+    FORESTER_TP_RR: 40.6
 - response: 75B07621022C8CBCACC
   expected_values:
     FORESTER_TP_FL: 40.8
     FORESTER_TP_FR: 40.4
     FORESTER_TP_RL: 40
     FORESTER_TP_RR: 40.6
+- response: 75B07621022C8CBCACD
+  expected_values:
+    FORESTER_TP_FL: 41
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40
+    FORESTER_TP_RR: 40.6
+- response: 75B07621022C8CCCACD
+  expected_values:
+    FORESTER_TP_FL: 41
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40
+    FORESTER_TP_RR: 40.8
+- response: 75B07621022C8CCCACF
+  expected_values:
+    FORESTER_TP_FL: 41.4
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40
+    FORESTER_TP_RR: 40.8
+- response: 75B07621022C8CDCBCF
+  expected_values:
+    FORESTER_TP_FL: 41.4
+    FORESTER_TP_FR: 40.6
+    FORESTER_TP_RL: 40
+    FORESTER_TP_RR: 41
 - response: 75B07621022C9CACACB
   expected_values:
     FORESTER_TP_FL: 40.6
     FORESTER_TP_FR: 40.4
     FORESTER_TP_RL: 40.2
     FORESTER_TP_RR: 40.4
+- response: 75B07621022C9CBC8CB
+  expected_values:
+    FORESTER_TP_FL: 40.6
+    FORESTER_TP_FR: 40
+    FORESTER_TP_RL: 40.2
+    FORESTER_TP_RR: 40.6
+- response: 75B07621022C9CBC9CB
+  expected_values:
+    FORESTER_TP_FL: 40.6
+    FORESTER_TP_FR: 40.2
+    FORESTER_TP_RL: 40.2
+    FORESTER_TP_RR: 40.6
+- response: 75B07621022C9CBCACC
+  expected_values:
+    FORESTER_TP_FL: 40.8
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40.2
+    FORESTER_TP_RR: 40.6
+- response: 75B07621022C9CBCACD
+  expected_values:
+    FORESTER_TP_FL: 41
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40.2
+    FORESTER_TP_RR: 40.6
 - response: 75B07621022C9CBCBCD
   expected_values:
     FORESTER_TP_FL: 41
     FORESTER_TP_FR: 40.6
     FORESTER_TP_RL: 40.2
     FORESTER_TP_RR: 40.6
+- response: 75B07621022C9CCCACC
+  expected_values:
+    FORESTER_TP_FL: 40.8
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40.2
+    FORESTER_TP_RR: 40.8
 - response: 75B07621022C9CCCBCC
   expected_values:
     FORESTER_TP_FL: 40.8
     FORESTER_TP_FR: 40.6
     FORESTER_TP_RL: 40.2
     FORESTER_TP_RR: 40.8
+- response: 75B07621022C9CDCBCF
+  expected_values:
+    FORESTER_TP_FL: 41.4
+    FORESTER_TP_FR: 40.6
+    FORESTER_TP_RL: 40.2
+    FORESTER_TP_RR: 41
 - response: 75B07621022CA00CCCF
   expected_values:
     FORESTER_TP_FL: 41.4
     FORESTER_TP_FR: 40.8
     FORESTER_TP_RL: 40.4
     FORESTER_TP_RR: 0
+- response: 75B07621022CACBCACB
+  expected_values:
+    FORESTER_TP_FL: 40.6
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40.4
+    FORESTER_TP_RR: 40.6
+- response: 75B07621022CACBCACC
+  expected_values:
+    FORESTER_TP_FL: 40.8
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40.4
+    FORESTER_TP_RR: 40.6
+- response: 75B07621022CACBCACD
+  expected_values:
+    FORESTER_TP_FL: 41
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40.4
+    FORESTER_TP_RR: 40.6
 - response: 75B07621022CACCCACD
   expected_values:
     FORESTER_TP_FL: 41
@@ -152,6 +368,12 @@ test_cases:
     FORESTER_TP_FR: 40.8
     FORESTER_TP_RL: 40.4
     FORESTER_TP_RR: 40.8
+- response: 75B07621022CACDCACD
+  expected_values:
+    FORESTER_TP_FL: 41
+    FORESTER_TP_FR: 40.4
+    FORESTER_TP_RL: 40.4
+    FORESTER_TP_RR: 41
 - response: 75B07621022CACDCBCC
   expected_values:
     FORESTER_TP_FL: 40.8
@@ -170,6 +392,24 @@ test_cases:
     FORESTER_TP_FR: 40.8
     FORESTER_TP_RL: 40.4
     FORESTER_TP_RR: 41
+- response: 75B07621022CACECBCF
+  expected_values:
+    FORESTER_TP_FL: 41.4
+    FORESTER_TP_FR: 40.6
+    FORESTER_TP_RL: 40.4
+    FORESTER_TP_RR: 41.2
+- response: 75B07621022CACECCD0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 40.8
+    FORESTER_TP_RL: 40.4
+    FORESTER_TP_RR: 41.2
+- response: 75B07621022CBCCCCD0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 40.8
+    FORESTER_TP_RL: 40.6
+    FORESTER_TP_RR: 40.8
 - response: 75B07621022CBCDCBCE
   expected_values:
     FORESTER_TP_FL: 41.2
@@ -188,12 +428,24 @@ test_cases:
     FORESTER_TP_FR: 40.8
     FORESTER_TP_RL: 40.6
     FORESTER_TP_RR: 41
+- response: 75B07621022CBCDCCCF
+  expected_values:
+    FORESTER_TP_FL: 41.4
+    FORESTER_TP_FR: 40.8
+    FORESTER_TP_RL: 40.6
+    FORESTER_TP_RR: 41
 - response: 75B07621022CBCDCDCE
   expected_values:
     FORESTER_TP_FL: 41.2
     FORESTER_TP_FR: 41
     FORESTER_TP_RL: 40.6
     FORESTER_TP_RR: 41
+- response: 75B07621022CBCECCD0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 40.8
+    FORESTER_TP_RL: 40.6
+    FORESTER_TP_RR: 41.2
 - response: 75B07621022CBCECDCF
   expected_values:
     FORESTER_TP_FL: 41.4
@@ -221,6 +473,12 @@ test_cases:
 - response: 75B07621022CCCDCDCE
   expected_values:
     FORESTER_TP_FL: 41.2
+    FORESTER_TP_FR: 41
+    FORESTER_TP_RL: 40.8
+    FORESTER_TP_RR: 41
+- response: 75B07621022CCCDCDCF
+  expected_values:
+    FORESTER_TP_FL: 41.4
     FORESTER_TP_FR: 41
     FORESTER_TP_RL: 40.8
     FORESTER_TP_RR: 41
@@ -266,6 +524,12 @@ test_cases:
     FORESTER_TP_FR: 41.2
     FORESTER_TP_RL: 40.8
     FORESTER_TP_RR: 41.2
+- response: 75B07621022CCCFCDD0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 41
+    FORESTER_TP_RL: 40.8
+    FORESTER_TP_RR: 41.4
 - response: 75B07621022CCCFCED1
   expected_values:
     FORESTER_TP_FL: 41.8
@@ -320,6 +584,12 @@ test_cases:
     FORESTER_TP_FR: 41.4
     FORESTER_TP_RL: 41
     FORESTER_TP_RR: 40.8
+- response: 75B07621022CDCDCED0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 41.2
+    FORESTER_TP_RL: 41
+    FORESTER_TP_RR: 41
 - response: 75B07621022CDCDCFCE
   expected_values:
     FORESTER_TP_FL: 41.2
@@ -332,6 +602,18 @@ test_cases:
     FORESTER_TP_FR: 41.6
     FORESTER_TP_RL: 41
     FORESTER_TP_RR: 41
+- response: 75B07621022CDD0CED0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 41.2
+    FORESTER_TP_RL: 41
+    FORESTER_TP_RR: 41.6
+- response: 75B07621022CDD0CED2
+  expected_values:
+    FORESTER_TP_FL: 42
+    FORESTER_TP_FR: 41.2
+    FORESTER_TP_RL: 41
+    FORESTER_TP_RR: 41.6
 - response: 75B07621022CDD1CED3
   expected_values:
     FORESTER_TP_FL: 42.2
@@ -386,6 +668,12 @@ test_cases:
     FORESTER_TP_FR: 41.6
     FORESTER_TP_RL: 41.2
     FORESTER_TP_RR: 41.2
+- response: 75B07621022CECFCFD1
+  expected_values:
+    FORESTER_TP_FL: 41.8
+    FORESTER_TP_FR: 41.4
+    FORESTER_TP_RL: 41.2
+    FORESTER_TP_RR: 41.4
 - response: 75B07621022CECFD0D1
   expected_values:
     FORESTER_TP_FL: 41.8
@@ -434,6 +722,24 @@ test_cases:
     FORESTER_TP_FR: 41.6
     FORESTER_TP_RL: 41.4
     FORESTER_TP_RR: 41.4
+- response: 75B07621022CFD0D1D0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.4
+    FORESTER_TP_RR: 41.6
+- response: 75B07621022CFD1D1D1
+  expected_values:
+    FORESTER_TP_FL: 41.8
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.4
+    FORESTER_TP_RR: 41.8
+- response: 75B07621022CFD1D1D2
+  expected_values:
+    FORESTER_TP_FL: 42
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.4
+    FORESTER_TP_RR: 41.8
 - response: 75B07621022CFD2D0D4
   expected_values:
     FORESTER_TP_FL: 42.4
@@ -446,12 +752,90 @@ test_cases:
     FORESTER_TP_FR: 41.6
     FORESTER_TP_RL: 41.4
     FORESTER_TP_RR: 42
+- response: 75B07621022CFD2D1D3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.4
+    FORESTER_TP_RR: 42
 - response: 75B07621022CFD3D0D5
   expected_values:
     FORESTER_TP_FL: 42.6
     FORESTER_TP_FR: 41.6
     FORESTER_TP_RL: 41.4
     FORESTER_TP_RR: 42.2
+- response: 75B07621022CFD3D1D3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.4
+    FORESTER_TP_RR: 42.2
+- response: 75B07621022CFD4CFD3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.4
+    FORESTER_TP_RL: 41.4
+    FORESTER_TP_RR: 42.4
+- response: 75B07621022CFD5CFD4
+  expected_values:
+    FORESTER_TP_FL: 42.4
+    FORESTER_TP_FR: 41.4
+    FORESTER_TP_RL: 41.4
+    FORESTER_TP_RR: 42.6
+- response: 75B07621022CFD5D0D4
+  expected_values:
+    FORESTER_TP_FL: 42.4
+    FORESTER_TP_FR: 41.6
+    FORESTER_TP_RL: 41.4
+    FORESTER_TP_RR: 42.6
+- response: 75B07621022D0CFD1CF
+  expected_values:
+    FORESTER_TP_FL: 41.4
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 41.4
+- response: 75B07621022D0D0D0D0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 41.6
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 41.6
+- response: 75B07621022D0D0D1CF
+  expected_values:
+    FORESTER_TP_FL: 41.4
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 41.6
+- response: 75B07621022D0D1D0D1
+  expected_values:
+    FORESTER_TP_FL: 41.8
+    FORESTER_TP_FR: 41.6
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 41.8
+- response: 75B07621022D0D1D1D0
+  expected_values:
+    FORESTER_TP_FL: 41.6
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 41.8
+- response: 75B07621022D0D1D1D2
+  expected_values:
+    FORESTER_TP_FL: 42
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 41.8
+- response: 75B07621022D0D1D1D3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 41.8
+- response: 75B07621022D0D2D0D1
+  expected_values:
+    FORESTER_TP_FL: 41.8
+    FORESTER_TP_FR: 41.6
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 42
 - response: 75B07621022D0D2D0D3
   expected_values:
     FORESTER_TP_FL: 42.2
@@ -464,18 +848,78 @@ test_cases:
     FORESTER_TP_FR: 41.6
     FORESTER_TP_RL: 41.6
     FORESTER_TP_RR: 42
+- response: 75B07621022D0D2D1D1
+  expected_values:
+    FORESTER_TP_FL: 41.8
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 42
+- response: 75B07621022D0D2D1D2
+  expected_values:
+    FORESTER_TP_FL: 42
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 42
+- response: 75B07621022D0D2D1D3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 42
+- response: 75B07621022D0D3D1D2
+  expected_values:
+    FORESTER_TP_FL: 42
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 42.2
 - response: 75B07621022D0D3D1D5
   expected_values:
     FORESTER_TP_FL: 42.6
     FORESTER_TP_FR: 41.8
     FORESTER_TP_RL: 41.6
     FORESTER_TP_RR: 42.2
+- response: 75B07621022D0D4CFD3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.4
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 42.4
+- response: 75B07621022D0D4D0D3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.6
+    FORESTER_TP_RL: 41.6
+    FORESTER_TP_RR: 42.4
 - response: 75B07621022D0D4D2D6
   expected_values:
     FORESTER_TP_FL: 42.8
     FORESTER_TP_FR: 42
     FORESTER_TP_RL: 41.6
     FORESTER_TP_RR: 42.4
+- response: 75B07621022D1D1D1D2
+  expected_values:
+    FORESTER_TP_FL: 42
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.8
+    FORESTER_TP_RR: 41.8
+- response: 75B07621022D1D1D1D3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.8
+    FORESTER_TP_RR: 41.8
+- response: 75B07621022D1D2D1D3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.8
+    FORESTER_TP_RR: 42
+- response: 75B07621022D1D3D1D3
+  expected_values:
+    FORESTER_TP_FL: 42.2
+    FORESTER_TP_FR: 41.8
+    FORESTER_TP_RL: 41.8
+    FORESTER_TP_RR: 42.2
 - response: 75B07621022D1D3D2D6
   expected_values:
     FORESTER_TP_FL: 42.8

@@ -26,3 +26,12 @@ test_cases:
     7E804410C0000
   expected_values:
     MAF: 0.29
+- response: 7E804410C1274
+  expected_values:
+    RPM: 1181
+- response: 7E804410C1B71
+  expected_values:
+    RPM: 1756.25
+- response: 7E804410C282E
+  expected_values:
+    RPM: 2571.5
