@@ -26,15 +26,42 @@ test_cases:
 - response: 7B8056210290007
   expected_values:
     FORESTER_STEER_ANGLE: 7
+- response: 7B8056210290008
+  expected_values:
+    FORESTER_STEER_ANGLE: 8
+- response: 7B8056210290009
+  expected_values:
+    FORESTER_STEER_ANGLE: 9
+- response: 7B805621029000A
+  expected_values:
+    FORESTER_STEER_ANGLE: 10
 - response: 7B805621029000B
   expected_values:
     FORESTER_STEER_ANGLE: 11
+- response: 7B805621029000C
+  expected_values:
+    FORESTER_STEER_ANGLE: 12
+- response: 7B8056210290010
+  expected_values:
+    FORESTER_STEER_ANGLE: 16
 - response: 7B8056210290011
   expected_values:
     FORESTER_STEER_ANGLE: 17
+- response: 7B8056210290012
+  expected_values:
+    FORESTER_STEER_ANGLE: 18
 - response: 7B8056210290025
   expected_values:
     FORESTER_STEER_ANGLE: 37
+- response: 7B805621029002E
+  expected_values:
+    FORESTER_STEER_ANGLE: 46
+- response: 7B8056210290030
+  expected_values:
+    FORESTER_STEER_ANGLE: 48
+- response: 7B8056210290057
+  expected_values:
+    FORESTER_STEER_ANGLE: 87
 - response: 7B8056210290059
   expected_values:
     FORESTER_STEER_ANGLE: 89
@@ -44,6 +71,15 @@ test_cases:
 - response: 7B8056210290070
   expected_values:
     FORESTER_STEER_ANGLE: 112
+- response: 7B8056210290084
+  expected_values:
+    FORESTER_STEER_ANGLE: 132
+- response: 7B8056210290088
+  expected_values:
+    FORESTER_STEER_ANGLE: 136
+- response: 7B805621029008E
+  expected_values:
+    FORESTER_STEER_ANGLE: 142
 - response: 7B80562102900B9
   expected_values:
     FORESTER_STEER_ANGLE: 185
@@ -59,6 +95,9 @@ test_cases:
 - response: 7B805621029FED5
   expected_values:
     FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FF4C
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
 - response: 7B805621029FF64
   expected_values:
     FORESTER_STEER_ANGLE: 0
@@ -69,6 +108,12 @@ test_cases:
   expected_values:
     FORESTER_STEER_ANGLE: 0
 - response: 7B805621029FF8E
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FF8F
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FF91
   expected_values:
     FORESTER_STEER_ANGLE: 0
 - response: 7B805621029FF9F
@@ -92,10 +137,19 @@ test_cases:
 - response: 7B805621029FFD7
   expected_values:
     FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFD9
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
 - response: 7B805621029FFDC
   expected_values:
     FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFE3
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
 - response: 7B805621029FFEA
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFEB
   expected_values:
     FORESTER_STEER_ANGLE: 0
 - response: 7B805621029FFEC
@@ -120,6 +174,9 @@ test_cases:
   expected_values:
     FORESTER_STEER_ANGLE: 0
 - response: 7B805621029FFF7
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFF8
   expected_values:
     FORESTER_STEER_ANGLE: 0
 - response: 7B805621029FFF9

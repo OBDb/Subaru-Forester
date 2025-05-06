@@ -5,3 +5,9 @@ test_cases:
 - response: 7E8056210E5FFFF
   expected_values:
     FORESTER_ODO: 131070
+- response: |-
+    7E8056210E5FFFF
+    7E803410583
+    7E803410B64
+  expected_values:
+    FORESTER_ODO: 131070
