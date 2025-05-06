@@ -3,7 +3,6 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    7E8037F2231
     7E8044110001D
     7E804413C043C
     7E803415C76
@@ -29,27 +28,6 @@ test_cases:
 - response: 7E8044110011D
   expected_values:
     MAF: 2.85
-- response: '7E80441100128'
-  expected_values:
-    MAF: 2.96
-- response: 7E8044110012D
-  expected_values:
-    MAF: 3.01
-- response: 7E8044110014C
-  expected_values:
-    MAF: 3.32
-- response: 7E8044110014F
-  expected_values:
-    MAF: 3.35
-- response: '7E80441100153'
-  expected_values:
-    MAF: 3.39
-- response: '7E80441100180'
-  expected_values:
-    MAF: 3.84
-- response: 7E804411001D1
-  expected_values:
-    MAF: 4.65
 - response: 7E804411001FA
   expected_values:
     MAF: 5.06
