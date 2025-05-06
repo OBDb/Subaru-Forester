@@ -14,6 +14,9 @@ test_cases:
 - response: 7E803410D03
   expected_values:
     VSS: 3
+- response: 7E803410D05
+  expected_values:
+    VSS: 5
 - response: 7E803410D08
   expected_values:
     VSS: 8
@@ -23,6 +26,9 @@ test_cases:
 - response: 7E803410D0D
   expected_values:
     VSS: 13
+- response: 7E803410D0E
+  expected_values:
+    VSS: 14
 - response: 7E803410D0F
   expected_values:
     VSS: 15
@@ -35,9 +41,18 @@ test_cases:
 - response: 7E803410D13
   expected_values:
     VSS: 19
+- response: 7E803410D15
+  expected_values:
+    VSS: 21
+- response: 7E803410D17
+  expected_values:
+    VSS: 23
 - response: 7E803410D18
   expected_values:
     VSS: 24
+- response: 7E803410D1A
+  expected_values:
+    VSS: 26
 - response: 7E803410D1C
   expected_values:
     VSS: 28
@@ -50,6 +65,9 @@ test_cases:
 - response: 7E803410D23
   expected_values:
     VSS: 35
+- response: 7E803410D26
+  expected_values:
+    VSS: 38
 - response: 7E803410D2A
   expected_values:
     VSS: 42
@@ -65,6 +83,9 @@ test_cases:
 - response: 7E803410D39
   expected_values:
     VSS: 57
+- response: 7E803410D3C
+  expected_values:
+    VSS: 60
 - response: 7E803410D3E
   expected_values:
     VSS: 62
@@ -77,6 +98,12 @@ test_cases:
 - response: 7E803410D45
   expected_values:
     VSS: 69
+- response: 7E803410D46
+  expected_values:
+    VSS: 70
+- response: 7E803410D48
+  expected_values:
+    VSS: 72
 - response: 7E803410D4A
   expected_values:
     VSS: 74
@@ -89,6 +116,9 @@ test_cases:
 - response: 7E803410D51
   expected_values:
     VSS: 81
+- response: 7E803410D56
+  expected_values:
+    VSS: 86
 - response: 7E803410D57
   expected_values:
     VSS: 87
@@ -98,6 +128,9 @@ test_cases:
 - response: 7E803410D5A
   expected_values:
     VSS: 90
+- response: 7E803410D60
+  expected_values:
+    VSS: 96
 - response: 7E803410D61
   expected_values:
     VSS: 97
@@ -113,9 +146,15 @@ test_cases:
 - response: 7E803410D6E
   expected_values:
     VSS: 110
+- response: 7E803410D71
+  expected_values:
+    VSS: 113
 - response: 7E803410D78
   expected_values:
     VSS: 120
 - response: 7E803410D7C
   expected_values:
     VSS: 124
+- response: 7E803410D81
+  expected_values:
+    VSS: 129

@@ -5,12 +5,24 @@ test_cases:
 - response: 7E803410B16
   expected_values:
     MAP: 22
+- response: 7E803410B19
+  expected_values:
+    MAP: 25
 - response: 7E803410B1B
   expected_values:
     MAP: 27
+- response: 7E803410B28
+  expected_values:
+    MAP: 40
+- response: 7E803410B2D
+  expected_values:
+    MAP: 45
 - response: 7E803410B39
   expected_values:
     MAP: 57
+- response: 7E803410B48
+  expected_values:
+    MAP: 72
 - response: 7E803410B4D
   expected_values:
     MAP: 77

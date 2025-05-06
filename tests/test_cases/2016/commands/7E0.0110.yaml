@@ -4,10 +4,37 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     7E8037F2231
+    7E8044110001D
+    7E804413C043C
+    7E803415C76
+    7E803410581
+    7E803410B66
+    7E804410C0000
     7E803410D00
     7E8044110001D
+    7E804413C043C
+    7E803415C76
+    7E803410580
+    7E803410B66
+    7E804410C0000
+    7E803410D00
+    7E8044110001D
+    7E804413C043B
+    7E803415C75
+    7E803410580
+    7E803410B66
+    7E804410C0000
   expected_values:
-    VSS: 0
+    MAF: 0.29
+- response: 7E8044110011D
+  expected_values:
+    MAF: 2.85
+- response: '7E80441100128'
+  expected_values:
+    MAF: 2.96
+- response: 7E8044110012D
+  expected_values:
+    MAF: 3.01
 - response: 7E8044110014C
   expected_values:
     MAF: 3.32
@@ -17,6 +44,18 @@ test_cases:
 - response: '7E80441100153'
   expected_values:
     MAF: 3.39
+- response: '7E80441100180'
+  expected_values:
+    MAF: 3.84
+- response: 7E804411001D1
+  expected_values:
+    MAF: 4.65
+- response: 7E804411001FA
+  expected_values:
+    MAF: 5.06
+- response: 7E8044110030E
+  expected_values:
+    MAF: 7.82
 - response: 7E804411017B9
   expected_values:
     MAF: 60.73

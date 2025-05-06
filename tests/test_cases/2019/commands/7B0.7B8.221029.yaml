@@ -1,0 +1,28 @@
+command_id: 7B0.7B8.221029
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7B8056210290000
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B8056210290001
+  expected_values:
+    FORESTER_STEER_ANGLE: 1
+- response: 7B8056210290002
+  expected_values:
+    FORESTER_STEER_ANGLE: 2
+- response: 7B8056210290004
+  expected_values:
+    FORESTER_STEER_ANGLE: 4
+- response: 7B805621029000C
+  expected_values:
+    FORESTER_STEER_ANGLE: 12
+- response: 7B805621029000E
+  expected_values:
+    FORESTER_STEER_ANGLE: 14
+- response: 7B805621029FFED
+  expected_values:
+    FORESTER_STEER_ANGLE: 0
+- response: 7B805621029FFEF
+  expected_values:
+    FORESTER_STEER_ANGLE: 0

@@ -1,0 +1,22 @@
+command_id: 7E0.7E8.2210E5
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056210E5A9D0
+  expected_values:
+    FORESTER_ODO: 86944
+- response: 7E8056210E5A9D5
+  expected_values:
+    FORESTER_ODO: 86954
+- response: 7E8056210E5A9D6
+  expected_values:
+    FORESTER_ODO: 86956
+- response: 7E8056210E5A9D7
+  expected_values:
+    FORESTER_ODO: 86958
+- response: 7E8056210E5A9E1
+  expected_values:
+    FORESTER_ODO: 86978
+- response: 7E8056210E5A9E2
+  expected_values:
+    FORESTER_ODO: 86980

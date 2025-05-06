@@ -155,3 +155,48 @@ test_cases:
 - response: 7E80641A600048073
   expected_values:
     ODO: 29502.7
+- response: 7E80641A60004843E
+  expected_values:
+    ODO: 29599.8
+- response: 7E80641A60004843F
+  expected_values:
+    ODO: 29599.9
+- response: 7E80641A600048441
+  expected_values:
+    ODO: 29600.1
+- response: 7E80641A600048444
+  expected_values:
+    ODO: 29600.4
+- response: 7E80641A600048B76
+  expected_values:
+    ODO: 29784.6
+- response: 7E80641A600048B7D
+  expected_values:
+    ODO: 29785.3
+- response: 7E80641A600048B82
+  expected_values:
+    ODO: 29785.8
+- response: 7E80641A600048B86
+  expected_values:
+    ODO: 29786.2
+- response: 7E80641A600048B8A
+  expected_values:
+    ODO: 29786.6
+- response: 7E80641A600048B8E
+  expected_values:
+    ODO: 29787
+- response: 7E80641A600048B97
+  expected_values:
+    ODO: 29787.9
+- response: 7E80641A600048BA2
+  expected_values:
+    ODO: 29789
+- response: 7E80641A60004920E
+  expected_values:
+    ODO: 29953.4
+- response: 7E80641A600049211
+  expected_values:
+    ODO: 29953.7
+- response: 7E80641A600049215
+  expected_values:
+    ODO: 29954.1
