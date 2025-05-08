@@ -5,6 +5,37 @@ test_cases:
 - response: 7E803415C4D
   expected_values:
     EOT: 37
+- response: |-
+    7E803415C74
+    7E80341057D
+    7E803410B66
+    7E804410C0000
+    7E803410D00
+    7E8044110001D
+    7E804413C043C
+    7E803415C74
+    7E80341057D
+    7E803410B66
+    7E804410C0000
+    7E803410D00
+    7E8044110001D
+    7E804413C043C
+    7E803415C73
+    7E80341057D
+    7E803410B66
+  expected_values:
+    EOT: 75
+- response: |-
+    7E803415C80
+    7E803410582
+    7E803410B65
+    7E804410C0000
+    7E803410D00
+    7E8044110001D
+    7E804413C043D
+    7E803415C80
+  expected_values:
+    EOT: 88
 - response: 7E803415C8F
   expected_values:
     EOT: 103
