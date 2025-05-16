@@ -52,4 +52,5 @@ supported_commands_by_ecu:
   - 0121:MIL_DIST
 unsupported_commands_by_ecu:
   7E0:
+  - 7E0.7E8.0140
   - 7E0.7E8.22002F
