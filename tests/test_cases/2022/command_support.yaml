@@ -1,6 +1,4 @@
 model_year: 2022
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 supported_commands_by_ecu:
   7E0:
   - 0101:ACRF_RDY,ACRF_SUP,AIR_RDY,AIR_SUP,CAT_RDY,CAT_SUP,CCM_RDY,CCM_SUP,CIM_SUP,DTC_CNT,EGR_RDY,EGR_SUP,EVAP_RDY,EVAP_SUP,FUEL_RDY,FUEL_SUP,HCAT_RDY,HCAT_SUP,HTR_RDY,HTR_SUP,MIL,MIS_RDY,MIS_SUP,O2S_RDY,O2S_SUP
@@ -84,6 +82,7 @@ unsupported_commands_by_ecu:
   700:
   - '700.221059'
   - '700.221074'
+  - 700.2210CD
   - '700.221638'
   - 700.221F2F
   701:
@@ -98,12 +97,13 @@ unsupported_commands_by_ecu:
   750:
   - '750.2115'
   - '750.2116'
+  - '750.2130'
   - 750.758.2130
   - 750.758.221004
   - 750.758.221005
   - 750.758.222021
   7B0:
-  - 7B0.221006
+  - 7B0.2103
   - 7B0.7B8.2103
   - 7B0.7B8.2121
   - 7B0.7B8.2147
@@ -126,6 +126,7 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.2128
   - 7E0.7E8.2151
   - 7E0.7E8.2182
-  - 7E0.7E8.22002F
+  - 7E0.7E8.2185
+  - 7E0.7E8.22002F|t=64,fc=1:FORESTER_FLI
   7E1:
   - 7E1.7E9.010D
