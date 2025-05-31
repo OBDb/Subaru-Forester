@@ -31,7 +31,7 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1029"}, "freq": 0.25, "dbgfilter": { "from": 2025, "to": 2015, "years": [2017, 2018, 2020, 2021] },
   "signals": [
-    {"id": "FORESTER_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 65535, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
+    {"id": "FORESTER_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32767, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 15, "dbgfilter": { "from": 2025, "to": 2015, "years": [2017, 2018, 2020, 2021] },
   "signals": [
