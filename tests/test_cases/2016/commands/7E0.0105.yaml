@@ -17,17 +17,27 @@ test_cases:
     7E803410D00
     7E8044110020D
   expected_values:
-    ECT: 52
+    ECT: 52.0
+    LOAD_PCT: 26.27451
+    MAP: 39.0
+    RPM: 979.25
+    VSS: 0
+    MAF: 5.25
+    CATEMP11: 435.9
+    EQ_RAT: 0.99565
+    EOT: 32.0
 - response: |-
     7E8034104DC
     7E80341056F
     7E803410B5C
   expected_values:
-    ECT: 71
+    ECT: 71.0
+    LOAD_PCT: 86.27451
+    MAP: 92.0
 - response: 7E80341055A
   expected_values:
     ECT: 50
-- response: '7E803410582'
+- response: 7E803410582
   expected_values:
     ECT: 90
 - response: |-
@@ -49,7 +59,13 @@ test_cases:
     7E80341057D
     7E803410B66
   expected_values:
-    ECT: 85
+    ECT: 85.0
+    EOT: 75.0
+    MAP: 102.0
+    RPM: 0
+    VSS: 0
+    MAF: 0.29
+    CATEMP11: 68.4
 - response: |-
     7E803415C80
     7E803410582
@@ -60,7 +76,13 @@ test_cases:
     7E804413C043D
     7E803415C80
   expected_values:
-    ECT: 90
+    ECT: 90.0
+    EOT: 88.0
+    MAP: 101.0
+    RPM: 0
+    VSS: 0
+    MAF: 0.29
+    CATEMP11: 68.5
 - response: |-
     7E8044110001D
     7E804413C043C
@@ -83,13 +105,21 @@ test_cases:
     7E803410B66
     7E804410C0000
   expected_values:
-    ECT: 88
+    ECT: 88.0
+    MAF: 0.29
+    CATEMP11: 68.3
+    EOT: 77.0
+    MAP: 102.0
+    RPM: 0
+    VSS: 0
 - response: |-
     7E8056210E5FFFF
     7E803410583
     7E803410B64
   expected_values:
-    ECT: 91
+    ECT: 91.0
+    FORESTER_ODO: 131070.0
+    MAP: 100.0
 - response: |-
     7E8056210E5FFFF
     7E803410D00
@@ -111,4 +141,11 @@ test_cases:
     7E804413C043D
     7E803415C8B
   expected_values:
-    ECT: 92
+    ECT: 92.0
+    FORESTER_ODO: 131070.0
+    VSS: 0
+    MAF: 0.32
+    CATEMP11: 68.5
+    EOT: 99.0
+    MAP: 101.0
+    RPM: 0

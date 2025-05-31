@@ -18,6 +18,14 @@ test_cases:
     7E8044110020D
   expected_values:
     EQ_RAT: 0.99565
+    LOAD_PCT: 26.27451
+    ECT: 52.0
+    MAP: 39.0
+    RPM: 979.25
+    VSS: 0
+    MAF: 5.25
+    CATEMP11: 435.9
+    EOT: 32.0
 - response: 7E80441447DC1
   expected_values:
     EQ_RAT: 0.98247

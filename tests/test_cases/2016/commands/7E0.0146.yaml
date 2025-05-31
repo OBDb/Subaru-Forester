@@ -4,4 +4,5 @@ test_cases:
     7E8056210E5FFFF
     7E80341463D
   expected_values:
-    AAT: 21
+    AAT: 21.0
+    FORESTER_ODO: 131070.0
