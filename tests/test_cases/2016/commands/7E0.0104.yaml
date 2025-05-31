@@ -1,9 +1,9 @@
 command_id: 7E0.0104
 test_cases:
-- response: '7E803410437'
+- response: 7E803410437
   expected_values:
     LOAD_PCT: 21.56863
-- response: '7E803410441'
+- response: 7E803410441
   expected_values:
     LOAD_PCT: 25.4902
 - response: |-
@@ -24,12 +24,22 @@ test_cases:
     7E8044110020D
   expected_values:
     LOAD_PCT: 26.27451
+    ECT: 52.0
+    MAP: 39.0
+    RPM: 979.25
+    VSS: 0
+    MAF: 5.25
+    CATEMP11: 435.9
+    EQ_RAT: 0.99565
+    EOT: 32.0
 - response: |-
     7E8034104DC
     7E80341056F
     7E803410B5C
   expected_values:
     LOAD_PCT: 86.27451
+    ECT: 71.0
+    MAP: 92.0
 - response: 7E8034104DF
   expected_values:
     LOAD_PCT: 87.45098
