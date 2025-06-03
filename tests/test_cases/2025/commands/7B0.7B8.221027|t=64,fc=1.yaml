@@ -1,0 +1,23 @@
+command_id: 7B0.7B8.221027|t=64,fc=1
+test_cases:
+- response: 7B8056210270000
+  expected_values:
+    FORESTER_RL_VSS: 0
+- response: 7B805621027001E
+  expected_values:
+    FORESTER_RL_VSS: 30
+- response: 7B8056210270037
+  expected_values:
+    FORESTER_RL_VSS: 55
+- response: 7B80562102700BC
+  expected_values:
+    FORESTER_RL_VSS: 188
+- response: 7B8056210270202
+  expected_values:
+    FORESTER_RL_VSS: 514
+- response: 7B8056210270259
+  expected_values:
+    FORESTER_RL_VSS: 601
+- response: 7B8056210270329
+  expected_values:
+    FORESTER_RL_VSS: 809
