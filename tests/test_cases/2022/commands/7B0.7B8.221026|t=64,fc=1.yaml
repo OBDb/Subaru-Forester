@@ -5,7 +5,7 @@ test_cases:
     FORESTER_RR_VSS: 0
 - response: 7B80562102600FF
   expected_values:
-    FORESTER_RR_VSS: 255
+    FORESTER_RR_VSS: 14.34375
 - response: 7B805621026070A
   expected_values:
-    FORESTER_RR_VSS: 1802
+    FORESTER_RR_VSS: 101.3625
