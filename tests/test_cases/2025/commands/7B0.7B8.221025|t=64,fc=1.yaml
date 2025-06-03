@@ -5,19 +5,19 @@ test_cases:
     FORESTER_FL_VSS: 0
 - response: 7B805621025001F
   expected_values:
-    FORESTER_FL_VSS: 31
+    FORESTER_FL_VSS: 1.74375
 - response: 7B805621025003D
   expected_values:
-    FORESTER_FL_VSS: 61
+    FORESTER_FL_VSS: 3.43125
 - response: 7B80562102500B5
   expected_values:
-    FORESTER_FL_VSS: 181
+    FORESTER_FL_VSS: 10.18125
 - response: 7B805621025020A
   expected_values:
-    FORESTER_FL_VSS: 522
+    FORESTER_FL_VSS: 29.3625
 - response: 7B8056210250254
   expected_values:
-    FORESTER_FL_VSS: 596
+    FORESTER_FL_VSS: 33.525
 - response: 7B805621025032C
   expected_values:
-    FORESTER_FL_VSS: 812
+    FORESTER_FL_VSS: 45.675

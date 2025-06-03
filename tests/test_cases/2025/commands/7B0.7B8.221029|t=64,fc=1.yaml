@@ -20,13 +20,13 @@ test_cases:
     FORESTER_STEER_ANGLE: 269
 - response: 7B805621029FFA3
   expected_values:
-    FORESTER_STEER_ANGLE: 0
+    FORESTER_STEER_ANGLE: -93.0
 - response: 7B805621029FFEB
   expected_values:
-    FORESTER_STEER_ANGLE: 0
+    FORESTER_STEER_ANGLE: -21.0
 - response: 7B805621029FFEC
   expected_values:
-    FORESTER_STEER_ANGLE: 0
+    FORESTER_STEER_ANGLE: -20.0
 - response: 7B805621029FFF8
   expected_values:
-    FORESTER_STEER_ANGLE: 0
+    FORESTER_STEER_ANGLE: -8.0
