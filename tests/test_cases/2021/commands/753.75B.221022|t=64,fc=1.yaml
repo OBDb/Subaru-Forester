@@ -1,0 +1,38 @@
+command_id: 753.75B.221022|t=64,fc=1
+test_cases:
+- expected_values:
+    FORESTER_TP_FL: 35.2
+    FORESTER_TP_FR: 34.8
+    FORESTER_TP_RL: 35
+    FORESTER_TP_RR: 34.8
+  response: 75B07621022AFAEAEB0
+- expected_values:
+    FORESTER_TP_FL: 35.4
+    FORESTER_TP_FR: 34.6
+    FORESTER_TP_RL: 35.2
+    FORESTER_TP_RR: 34.6
+  response: 75B07621022B0ADADB1
+- expected_values:
+    FORESTER_TP_FL: 39
+    FORESTER_TP_FR: 37.6
+    FORESTER_TP_RL: 39
+    FORESTER_TP_RR: 38.8
+  response: 75B07621022C3C2BCC3
+- expected_values:
+    FORESTER_TP_FL: 38.8
+    FORESTER_TP_FR: 38
+    FORESTER_TP_RL: 39.2
+    FORESTER_TP_RR: 38.4
+  response: 75B07621022C4C0BEC2
+- expected_values:
+    FORESTER_TP_FL: 39.6
+    FORESTER_TP_FR: 37.8
+    FORESTER_TP_RL: 39.2
+    FORESTER_TP_RR: 38.6
+  response: 75B07621022C4C1BDC6
+- expected_values:
+    FORESTER_TP_FL: 39
+    FORESTER_TP_FR: 37.8
+    FORESTER_TP_RL: 39.8
+    FORESTER_TP_RR: 38.2
+  response: 75B07621022C7BFBDC3
