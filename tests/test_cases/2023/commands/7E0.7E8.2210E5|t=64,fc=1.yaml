@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2210E5|t=64,fc=1
 test_cases:
-- response: 7E8056210E53911
-  expected_values:
+- expected_values:
     FORESTER_ODO: 29218
-- response: 7E8056210E575FF
-  expected_values:
+  response: 7E8056210E53911
+- expected_values:
     FORESTER_ODO: 60414
-- response: 7E8056210E57600
-  expected_values:
+  response: 7E8056210E575FF
+- expected_values:
     FORESTER_ODO: 60416
-- response: 7E8056210E57712
-  expected_values:
+  response: 7E8056210E57600
+- expected_values:
     FORESTER_ODO: 60964
+  response: 7E8056210E57712
