@@ -165,7 +165,7 @@ unsupported_commands_by_ecu:
   - 7D2.7DA.22106C
   - 7D2.7DA.221F0D
   "7E0":
-  - 7E0.220005:FORESTER_COOLANT_T
+  - 7E0.220005
   - 7E0.22002F
   - 7E0.7E8.2121
   - 7E0.7E8.2128
@@ -174,4 +174,4 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.2185
   - 7E0.7E8.22002F
   "7E6":
-  - 7E6.22106B:FORESTER_ATF_T
+  - 7E6.22106B

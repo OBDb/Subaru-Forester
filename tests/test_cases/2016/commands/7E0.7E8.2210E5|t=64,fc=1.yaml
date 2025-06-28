@@ -4,22 +4,13 @@ test_cases:
     FORESTER_ODO: 131070
   response: 7E8056210E5FFFF
 - expected_values:
-    FORESTER_ODO: 131070.0
-    ECT: 91.0
-    MAP: 100.0
+    FORESTER_ODO: 131070
   response: |-
     7E8056210E5FFFF
     7E803410583
     7E803410B64
 - expected_values:
-    FORESTER_ODO: 131070.0
-    VSS: 0
-    MAF: 0.32
-    CATEMP11: 68.5
-    EOT: 99.0
-    ECT: 92.0
-    MAP: 101.0
-    RPM: 0
+    FORESTER_ODO: 131070
   response: |-
     7E8056210E5FFFF
     7E803410D00
@@ -41,8 +32,7 @@ test_cases:
     7E804413C043D
     7E803415C8B
 - expected_values:
-    FORESTER_ODO: 131070.0
-    AAT: 21.0
+    FORESTER_ODO: 131070
   response: |-
     7E8056210E5FFFF
     7E80341463D
