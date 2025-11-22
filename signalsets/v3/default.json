@@ -13,11 +13,11 @@
     {"id": "FORESTER_TID3", "path": "Tires", "fmt": {"bix": 48, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 3 id"},
     {"id": "FORESTER_TID4", "path": "Tires", "fmt": {"bix": 72, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Tire 4 id"}
   ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "0005"}, "freq": 1,
+{ "hdr": "7A2", "tmo": "64", "fcm1": true, "cmd": {"22": "0005"}, "freq": 1, "dbg": true,
   "signals": [
     {"id": "FORESTER_ECT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "002F"}, "freq": 1,
+{ "hdr": "7A2", "tmo": "64", "fcm1": true, "cmd": {"22": "002F"}, "freq": 1, "dbg": true,
   "signals": [
     {"id": "FORESTER_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level"}
   ]},
@@ -25,7 +25,7 @@
   "signals": [
     {"id": "FORESTER_ACC_POS", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "10E7"}, "freq": 1,
+{ "hdr": "7A2", "tmo": "64", "fcm1": true, "cmd": {"22": "10E7"}, "freq": 1, "dbg": true,
   "signals": [
     {"id": "FORESTER_EOT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
@@ -37,15 +37,15 @@
   "signals": [
     {"id": "FORESTER_12V_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "12V battery temperature"}
   ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1149"}, "freq": 1,
+{ "hdr": "7A2", "tmo": "64", "fcm1": true, "cmd": {"22": "1149"}, "freq": 1, "dbg": true,
   "signals": [
     {"id": "FORESTER_ASH_RATIO_TOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Cumulative ash ratio"}
   ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "1155"}, "freq": 1,
+{ "hdr": "7A2", "tmo": "64", "fcm1": true, "cmd": {"22": "1155"}, "freq": 1, "dbg": true,
   "signals": [
     {"id": "FORESTER_OIL_CHANGE_DIST", "path": "Engine", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "kilometers" }, "name": "Estimated distance to oil change"}
   ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "dbg": true, "cmd": {"22": "116A"}, "freq": 1,
+{ "hdr": "7A2", "tmo": "64", "fcm1": true, "cmd": {"22": "116A"}, "freq": 1, "dbg": true,
   "signals": [
     {"id": "FORESTER_DPF_WARN_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DPF warning light flashing"}
   ]},
