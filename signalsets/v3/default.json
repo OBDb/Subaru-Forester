@@ -49,7 +49,7 @@
   "signals": [
     {"id": "FORESTER_DPF_WARN_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DPF warning light flashing"}
   ]},
-{ "hdr": "7A2", "tmo": "64", "fcm1": true, "cmd": {"22": "12ED"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "tmo": "64", "fcm1": true, "cmd": {"22": "12ED"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_MAF_AVG", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow, average"}
   ]},
