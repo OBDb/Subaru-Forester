@@ -1,0 +1,17 @@
+command_id: 7A2.7AA.221317
+test_cases:
+- expected_values:
+    FORESTER_MONITOR_4: 0
+  response: 7AA056213170000
+- expected_values:
+    FORESTER_MONITOR_4: 1144.25
+  response: 7AA0562131711E1
+- expected_values:
+    FORESTER_MONITOR_4: 1147.25
+  response: 7AA0562131711ED
+- expected_values:
+    FORESTER_MONITOR_4: 1158
+  response: 7AA056213171218
+- expected_values:
+    FORESTER_MONITOR_4: 1300.5
+  response: 7AA056213171452

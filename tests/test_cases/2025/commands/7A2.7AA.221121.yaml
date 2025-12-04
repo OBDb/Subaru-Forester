@@ -1,0 +1,8 @@
+command_id: 7A2.7AA.221121
+test_cases:
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1150
+  response: 7AA0562112111F8
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1300
+  response: 7AA056211211450
