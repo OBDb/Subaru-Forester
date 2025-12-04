@@ -1,0 +1,17 @@
+command_id: 7A2.7AA.2210AE
+test_cases:
+- expected_values:
+    FORESTER_CPC_VALVE_DUTY_CYCLE: 0
+  response: 7AA046210AE00
+- expected_values:
+    FORESTER_CPC_VALVE_DUTY_CYCLE: 17.64706
+  response: 7AA046210AE2D
+- expected_values:
+    FORESTER_CPC_VALVE_DUTY_CYCLE: 38.03922
+  response: 7AA046210AE61
+- expected_values:
+    FORESTER_CPC_VALVE_DUTY_CYCLE: 38.43137
+  response: 7AA046210AE62
+- expected_values:
+    FORESTER_CPC_VALVE_DUTY_CYCLE: 58.43137
+  response: 7AA046210AE95
