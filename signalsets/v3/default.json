@@ -549,7 +549,7 @@
   "signals": [
     {"id": "FORESTER_12V_ENGINE_RESTART_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "12V engine restart battery temperature"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2006"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2006"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "FORESTER_ENGINE_TORQUE_TARGET", "path": "ECU", "fmt": { "len": 16, "max": 5553.5, "min": -1000, "div": 10, "add": -1000, "unit": "newtonMeters" }, "name": "Engine torque target"}
   ]},
