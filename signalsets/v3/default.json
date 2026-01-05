@@ -85,7 +85,7 @@
   "signals": [
     {"id": "FORESTER_INTAKE_VVT_ADVANCE_RIGHT", "path": "ECU", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Intake VVT advance angle right"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B5"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B5"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_INTAKE_VVT_ADVANCE_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Intake VVT advance angle left"}
   ]},
@@ -181,7 +181,7 @@
   "signals": [
     {"id": "FORESTER_INLET_AIR_T_AFTER_AIR_FILTER", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Inlet air temperature, after air filter"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1121"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1121"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_TARGET_ENGINE_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Target engine speed"}
   ]},
