@@ -4,8 +4,8 @@ test_cases:
     FORESTER_ODO_7A2_10E5: 7398
   response: 7AA056210E50E73
 - expected_values:
-    FORESTER_ODO_7A2_10E5: 7400
-  response: 7AA056210E50E74
+    FORESTER_ODO_7A2_10E5: 9214
+  response: 7AA056210E511FF
 - expected_values:
-    FORESTER_ODO_7A2_10E5: 9138
-  response: 7AA056210E511D9
+    FORESTER_ODO_7A2_10E5: 9216
+  response: 7AA056210E51200
