@@ -7,6 +7,9 @@ test_cases:
     AAT: -7
   response: '7E803414621'
 - expected_values:
+    AAT: 19
+  response: 7E80341463B
+- expected_values:
     AAT: 32
   response: '7E803414648'
 - expected_values:
