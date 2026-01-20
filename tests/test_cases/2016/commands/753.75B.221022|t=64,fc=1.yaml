@@ -1,8 +1,8 @@
 command_id: 753.75B.221022|t=64,fc=1
 test_cases:
 - expected_values:
-    FORESTER_TP_FL: 29.4
-  response: 75B0762102200000093
+    FORESTER_TP_FL: 32.2
+  response: 75B07621022000000A1
 - expected_values:
     FORESTER_TP_FR: 29.8
   response: 75B0762102200009500
