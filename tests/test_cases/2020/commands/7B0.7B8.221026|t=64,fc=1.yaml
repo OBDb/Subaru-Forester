@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     FORESTER_RR_VSS: 40.33125
   response: 7B80562102602CD
+- expected_values:
+    FORESTER_RR_VSS: 95.00625
+  response: 7B8056210260699
+- expected_values:
+    FORESTER_RR_VSS: 100.0125
+  response: 7B80562102606F2
+- expected_values:
+    FORESTER_RR_VSS: 102.20625
+  response: 7B8056210260719
+- expected_values:
+    FORESTER_RR_VSS: 106.2
+  response: 7B8056210260760
+- expected_values:
+    FORESTER_RR_VSS: 111.4875
+  response: 7B80562102607BE
+- expected_values:
+    FORESTER_RR_VSS: 113.625
+  response: 7B80562102607E4
+- expected_values:
+    FORESTER_RR_VSS: 113.9625
+  response: 7B80562102607EA
