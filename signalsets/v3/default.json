@@ -365,7 +365,7 @@
   "signals": [
     {"id": "FORESTER_BAT_TERMINAL_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Battery terminal voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1322"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1322"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_BAT_CHARGE_DISCHARGE_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 4292967.2949999999, "min": -2000, "mul": 10, "div": 10000, "add": -2000, "unit": "amps" }, "name": "Battery charge/discharge current"}
   ]},
