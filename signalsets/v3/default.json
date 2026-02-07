@@ -117,7 +117,7 @@
   "signals": [
     {"id": "FORESTER_THROTTLE_MOTOR_DUTY", "path": "ECU", "fmt": { "len": 8, "max": 99.92, "min": -100, "mul": 0.784, "add": -100, "unit": "percent" }, "name": "Throttle motor duty"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10E3"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10E3"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2020 },
   "signals": [
     {"id": "FORESTER_CRUISE_VSS_T", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise speed, set"}
   ]},
