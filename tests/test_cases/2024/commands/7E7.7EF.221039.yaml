@@ -1,0 +1,14 @@
+command_id: 7E7.7EF.221039
+test_cases:
+- expected_values:
+    FORESTER_12V_ENGINE_RESTART_BAT_VOLTAGE: 13.1
+  response: 7EF0462103983
+- expected_values:
+    FORESTER_12V_ENGINE_RESTART_BAT_VOLTAGE: 13.2
+  response: 7EF0462103984
+- expected_values:
+    FORESTER_12V_ENGINE_RESTART_BAT_VOLTAGE: 13.3
+  response: 7EF0462103985
+- expected_values:
+    FORESTER_12V_ENGINE_RESTART_BAT_VOLTAGE: 13.4
+  response: 7EF0462103986

@@ -1,0 +1,5 @@
+command_id: 7E7.7EF.221079
+test_cases:
+- expected_values:
+    FORESTER_12V_ENGINE_RESTART_BAT_T: 21
+  response: 7EF046210793D

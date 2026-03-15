@@ -1,0 +1,5 @@
+command_id: 7E7.7EF.2220E2
+test_cases:
+- expected_values:
+    FORESTER_12V_AUX_BAT_T: 21
+  response: 7EF046220E27A

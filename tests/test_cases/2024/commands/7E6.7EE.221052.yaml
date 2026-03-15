@@ -1,0 +1,11 @@
+command_id: 7E6.7EE.221052
+test_cases:
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_OUTPUT_ACTUAL: 0
+  response: 7EE056210520000
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_OUTPUT_ACTUAL: -16.4
+  response: 7EE05621052FF5C
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_OUTPUT_ACTUAL: -0.1
+  response: 7EE05621052FFFF
