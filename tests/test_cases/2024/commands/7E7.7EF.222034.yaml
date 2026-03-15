@@ -1,0 +1,11 @@
+command_id: 7E7.7EF.222034
+test_cases:
+- expected_values:
+    FORESTER_ELECTRIC_OIL_PUMP_SPEED: 0
+  response: 7EF056220340000
+- expected_values:
+    FORESTER_ELECTRIC_OIL_PUMP_SPEED: 1892
+  response: 7EF056220340764
+- expected_values:
+    FORESTER_ELECTRIC_OIL_PUMP_SPEED: 1904
+  response: 7EF056220340770

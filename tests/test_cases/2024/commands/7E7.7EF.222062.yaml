@@ -1,0 +1,14 @@
+command_id: 7E7.7EF.222062
+test_cases:
+- expected_values:
+    FORESTER_ENGINE_TORQUE_ACTUAL: 0
+  response: 7EF056220622710
+- expected_values:
+    FORESTER_ENGINE_TORQUE_ACTUAL: 99.8
+  response: 7EF056220622AF6
+- expected_values:
+    FORESTER_ENGINE_TORQUE_ACTUAL: 100.8
+  response: 7EF056220622B00
+- expected_values:
+    FORESTER_ENGINE_TORQUE_ACTUAL: 131.5
+  response: 7EF056220622C33

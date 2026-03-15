@@ -1,0 +1,8 @@
+command_id: 7E6.7EE.221067
+test_cases:
+- expected_values:
+    FORESTER_DRIVEMOTOR_INVERTER_T_B: 29
+  response: 7EE046210674F
+- expected_values:
+    FORESTER_DRIVEMOTOR_INVERTER_T_B: 80
+  response: 7EE0462106782

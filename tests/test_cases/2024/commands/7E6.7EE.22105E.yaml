@@ -1,0 +1,26 @@
+command_id: 7E6.7EE.22105E
+test_cases:
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT: -65
+  response: 7EE0462105EBF
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT: -63
+  response: 7EE0462105EC1
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT: -60
+  response: 7EE0462105EC4
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT: -59
+  response: 7EE0462105EC5
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT: -58
+  response: 7EE0462105EC6
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT: -57
+  response: 7EE0462105EC7
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT: -48
+  response: 7EE0462105ED0
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT: -47
+  response: 7EE0462105ED1

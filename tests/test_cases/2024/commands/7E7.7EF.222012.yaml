@@ -1,0 +1,5 @@
+command_id: 7E7.7EF.222012
+test_cases:
+- expected_values:
+    FORESTER_12V_CURRENT: 0
+  response: 7EF056220124E20

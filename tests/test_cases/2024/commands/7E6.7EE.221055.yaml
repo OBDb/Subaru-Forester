@@ -1,0 +1,11 @@
+command_id: 7E6.7EE.221055
+test_cases:
+- expected_values:
+    FORESTER_DRIVEMOTOR_OUTPUT_POWER: 35
+  response: 7EE056210550023
+- expected_values:
+    FORESTER_DRIVEMOTOR_OUTPUT_POWER: -180
+  response: 7EE05621055FF4C
+- expected_values:
+    FORESTER_DRIVEMOTOR_OUTPUT_POWER: -16
+  response: 7EE05621055FFF0
