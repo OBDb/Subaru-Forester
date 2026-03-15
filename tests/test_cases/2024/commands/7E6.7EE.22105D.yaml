@@ -4,6 +4,9 @@ test_cases:
     FORESTER_DRIVEMOTOR_TORQUE_UPPER_LIMIT: 48
   response: 7EE0462105D30
 - expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_UPPER_LIMIT: 56
+  response: 7EE0462105D38
+- expected_values:
     FORESTER_DRIVEMOTOR_TORQUE_UPPER_LIMIT: 57
   response: 7EE0462105D39
 - expected_values:
