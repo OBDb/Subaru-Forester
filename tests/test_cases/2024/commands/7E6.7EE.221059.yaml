@@ -1,0 +1,14 @@
+command_id: 7E6.7EE.221059
+test_cases:
+- expected_values:
+    FORESTER_DRIVEMOTOR_SPEED_TARGET: 976
+  response: 7EE0562105903D0
+- expected_values:
+    FORESTER_DRIVEMOTOR_SPEED_TARGET: 1541
+  response: 7EE056210590605
+- expected_values:
+    FORESTER_DRIVEMOTOR_SPEED_TARGET: 1787
+  response: 7EE0562105906FB
+- expected_values:
+    FORESTER_DRIVEMOTOR_SPEED_TARGET: 2422
+  response: 7EE056210590976

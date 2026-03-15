@@ -10,5 +10,5 @@ test_cases:
     FORESTER_ODO: 28160
   response: 7E8056210E53700
 - expected_values:
-    FORESTER_ODO: 30720
-  response: 7E8056210E53C00
+    FORESTER_ODO: 31538
+  response: 7E8056210E53D99

@@ -477,107 +477,107 @@
   "signals": [
     {"id": "FORESTER_EOT_V2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1052"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1052"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_TORQUE_OUTPUT_ACTUAL", "path": "ECU", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque output actual"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1055"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1055"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_OUTPUT_POWER", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "watts" }, "name": "Drive motor output power"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1057"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1057"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_TORQUE_TARGET", "path": "ECU", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque target"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1058"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1058"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Drive motor speed"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1059"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1059"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_SPEED_TARGET", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Drive motor speed target"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "105D"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "105D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_TORQUE_UPPER_LIMIT", "path": "ECU", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque upper limit"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "105E"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "105E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_TORQUE_LOWER_LIMIT", "path": "ECU", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque lower limit"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1063"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1063"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_INVERTER_INPUT_HV_SENSOR", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "mul": 2500, "div": 10000, "unit": "volts" }, "name": "Drive motor inverter input HV sensor"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1065"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1065"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_INVERTER_T_ESTIMATED", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Inverter temperature estimated"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1066"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1066"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_INVERTER_T_A", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature a"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1067"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1067"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_INVERTER_T_B", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature b"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "1068"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "1068"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_INVERTER_T_C", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Drive motor inverter temperature c"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "106D"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "106D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_T_A", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Drive motor temperature a"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "106E"}, "freq": 1,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "106E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_DRIVEMOTOR_T_B", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Drive motor temperature b"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1037"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "1037"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_12V_AUX_BAT_VOLTAGE", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 25.5, "div": 255, "unit": "volts" }, "name": "12V aux battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1039"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "1039"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_12V_ENGINE_RESTART_BAT_VOLTAGE", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "mul": 25.5, "div": 255, "unit": "volts" }, "name": "12V engine restart battery voltage"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1077"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "1077"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_12V_ENGINE_RESTART_BAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 127.5, "div": 255, "unit": "percent" }, "name": "12V engine restart battery soc"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "1079"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "1079"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_12V_ENGINE_RESTART_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "12V engine restart battery temperature"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2006"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2006"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "FORESTER_ENGINE_TORQUE_TARGET", "path": "ECU", "fmt": { "len": 16, "max": 5553.5, "min": -1000, "div": 10, "add": -1000, "unit": "newtonMeters" }, "name": "Engine torque target"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2012"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2012"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_12V_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 4553.5, "min": -2000, "div": 10, "add": -2000, "unit": "amps" }, "name": "12V engine restart battery current"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2014"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2014"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_12V_SOC_CONTROL", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 127.5, "div": 255, "unit": "percent" }, "name": "12V engine restart battery soc control"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2034"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2034"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_ELECTRIC_OIL_PUMP_SPEED", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Electric oil pump speed"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2035"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2035"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_ELECTRIC_OIL_PUMP_CURRENT", "path": "ECU", "fmt": { "len": 8, "max": 15.9375, "div": 16, "unit": "amps" }, "name": "Electric oil pump current"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2061"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2061"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_ENGINE_TORQUE_UPPER_ECM", "path": "ECU", "fmt": { "len": 8, "max": 408, "mul": 408, "div": 255, "unit": "newtonMeters" }, "name": "Engine torque upper"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "2062"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "2062"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_ENGINE_TORQUE_ACTUAL", "path": "ECU", "fmt": { "len": 16, "max": 5553.5, "min": -1000, "div": 10, "add": -1000, "unit": "newtonMeters" }, "name": "Engine torque actual"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "20E2"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "20E2"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "FORESTER_12V_AUX_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "12V aux battery temperature"}
   ]}
