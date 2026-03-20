@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FORESTER_ACTUAL_PRIMARY_PRESSURE: 0
   response: 7AB056211410000
+- expected_values:
+    FORESTER_ACTUAL_PRIMARY_PRESSURE: 0.2918
+  response: 7AB0562114102EB
+- expected_values:
+    FORESTER_ACTUAL_PRIMARY_PRESSURE: 1.06759
+  response: 7AB056211410AAD

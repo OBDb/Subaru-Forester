@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     FORESTER_SECONDARY_PULLEY_SPEED: 0
   response: 7AB056211380000
+- expected_values:
+    FORESTER_SECONDARY_PULLEY_SPEED: 29
+  response: 7AB05621138001D
+- expected_values:
+    FORESTER_SECONDARY_PULLEY_SPEED: 60
+  response: 7AB05621138003C
+- expected_values:
+    FORESTER_SECONDARY_PULLEY_SPEED: 108
+  response: 7AB05621138006C
+- expected_values:
+    FORESTER_SECONDARY_PULLEY_SPEED: 980
+  response: 7AB0562113803D4
+- expected_values:
+    FORESTER_SECONDARY_PULLEY_SPEED: 1511
+  response: 7AB0562113805E7
+- expected_values:
+    FORESTER_SECONDARY_PULLEY_SPEED: 2607
+  response: 7AB056211380A2F
+- expected_values:
+    FORESTER_SECONDARY_PULLEY_SPEED: 2933
+  response: 7AB056211380B75
+- expected_values:
+    FORESTER_SECONDARY_PULLEY_SPEED: 3403
+  response: 7AB056211380D4B

@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     FORESTER_EXHAUST_OCV_DUTY_LEFT: 0
   response: 7AA046210EF00
+- expected_values:
+    FORESTER_EXHAUST_OCV_DUTY_LEFT: 27.84314
+  response: 7AA046210EF47
+- expected_values:
+    FORESTER_EXHAUST_OCV_DUTY_LEFT: 29.80392
+  response: 7AA046210EF4C
+- expected_values:
+    FORESTER_EXHAUST_OCV_DUTY_LEFT: 30.19608
+  response: 7AA046210EF4D
+- expected_values:
+    FORESTER_EXHAUST_OCV_DUTY_LEFT: 30.58824
+  response: 7AA046210EF4E
+- expected_values:
+    FORESTER_EXHAUST_OCV_DUTY_LEFT: 32.15686
+  response: 7AA046210EF52
+- expected_values:
+    FORESTER_EXHAUST_OCV_DUTY_LEFT: 42.7451
+  response: 7AA046210EF6D
+- expected_values:
+    FORESTER_EXHAUST_OCV_DUTY_LEFT: 44.70588
+  response: 7AA046210EF72
+- expected_values:
+    FORESTER_EXHAUST_OCV_DUTY_LEFT: 49.41176
+  response: 7AA046210EF7E
