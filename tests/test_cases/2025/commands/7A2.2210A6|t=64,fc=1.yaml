@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     FORESTER_ACC_POS: 0
   response: 7AA046210A600
+- expected_values:
+    FORESTER_ACC_POS: 7.45098
+  response: 7AA046210A613
+- expected_values:
+    FORESTER_ACC_POS: 16.47059
+  response: 7AA046210A62A
+- expected_values:
+    FORESTER_ACC_POS: 34.11765
+  response: 7AA046210A657

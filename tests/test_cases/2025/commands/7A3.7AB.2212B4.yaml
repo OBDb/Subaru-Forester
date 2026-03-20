@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FORESTER_AWD_SOLENOID_SET_CURRENT: 0
   response: 7AB056212B40000
+- expected_values:
+    FORESTER_AWD_SOLENOID_SET_CURRENT: 293
+  response: 7AB056212B40125
+- expected_values:
+    FORESTER_AWD_SOLENOID_SET_CURRENT: 433
+  response: 7AB056212B401B1

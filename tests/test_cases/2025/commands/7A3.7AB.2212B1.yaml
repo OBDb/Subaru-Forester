@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FORESTER_ACTUAL_LINE_PRESSURE: 0
   response: 7AB056212B10000
+- expected_values:
+    FORESTER_ACTUAL_LINE_PRESSURE: 1.29572
+  response: 7AB056212B10CF5
+- expected_values:
+    FORESTER_ACTUAL_LINE_PRESSURE: 3.75982
+  response: 7AB056212B12599
