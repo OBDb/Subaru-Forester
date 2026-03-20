@@ -1,0 +1,29 @@
+command_id: 7A2.7AA.221321
+test_cases:
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.743
+  response: 7AA056213212DDF
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.747
+  response: 7AA056213212DE3
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.748
+  response: 7AA056213212DE4
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.75
+  response: 7AA056213212DE6
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.751
+  response: 7AA056213212DE7
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.753
+  response: 7AA056213212DE9
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.761
+  response: 7AA056213212DF1
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.763
+  response: 7AA056213212DF3
+- expected_values:
+    FORESTER_BAT_TERMINAL_VOLTAGE: 11.764
+  response: 7AA056213212DF4

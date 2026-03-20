@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FORESTER_TARGET_ENGINE_SPEED: 1300
   response: 7AA056211211450
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1800
+  response: 7AA056211211C20
