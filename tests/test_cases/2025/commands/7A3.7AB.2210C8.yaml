@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FORESTER_LOCK_UP_DUTY_RATIO: 0
   response: 7AB046210C800
+- expected_values:
+    FORESTER_LOCK_UP_DUTY_RATIO: 95.5
+  response: 7AB046210C8BF
