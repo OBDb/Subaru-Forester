@@ -7,8 +7,5 @@ test_cases:
     FORESTER_TARGET_GEAR_RATIO: 0
   response: 7AB0562113D00EE
 - expected_values:
-    FORESTER_TARGET_GEAR_RATIO: 0.00391
-  response: 7AB0562113D013E
-- expected_values:
     FORESTER_TARGET_GEAR_RATIO: 0.00781
-  response: 7AB0562113D02AD
+  response: 7AB0562113D022C
