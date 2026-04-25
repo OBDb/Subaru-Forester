@@ -1,0 +1,20 @@
+command_id: 7E7.7EF.221037
+test_cases:
+- expected_values:
+    FORESTER_12V_AUX_BAT_VOLTAGE: 13.4
+  response: 7EF0462103786
+- expected_values:
+    FORESTER_12V_AUX_BAT_VOLTAGE: 13.5
+  response: 7EF0462103787
+- expected_values:
+    FORESTER_12V_AUX_BAT_VOLTAGE: 13.6
+  response: 7EF0462103788
+- expected_values:
+    FORESTER_12V_AUX_BAT_VOLTAGE: 14.2
+  response: 7EF046210378E
+- expected_values:
+    FORESTER_12V_AUX_BAT_VOLTAGE: 14.3
+  response: 7EF046210378F
+- expected_values:
+    FORESTER_12V_AUX_BAT_VOLTAGE: 14.4
+  response: 7EF0462103790

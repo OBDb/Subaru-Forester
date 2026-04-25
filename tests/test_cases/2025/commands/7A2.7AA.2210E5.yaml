@@ -1,0 +1,14 @@
+command_id: 7A2.7AA.2210E5
+test_cases:
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 7398
+  response: 7AA056210E50E73
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 9214
+  response: 7AA056210E511FF
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 9216
+  response: 7AA056210E51200
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 15364
+  response: 7AA056210E51E02

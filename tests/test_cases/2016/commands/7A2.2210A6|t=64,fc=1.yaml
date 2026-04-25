@@ -1,0 +1,8 @@
+command_id: 7A2.2210A6|t=64,fc=1
+test_cases:
+- expected_values:
+    FORESTER_ACC_POS: 13.72549
+  response: 7E8046210A623
+- expected_values:
+    FORESTER_ACC_POS: 28.23529
+  response: 7E8046210A648
