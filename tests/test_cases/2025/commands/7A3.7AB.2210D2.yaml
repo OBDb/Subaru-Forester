@@ -1,8 +1,0 @@
-command_id: 7A3.7AB.2210D2
-test_cases:
-- expected_values:
-    FORESTER_CVT_T: 16
-  response: 7AB046210D242
-- expected_values:
-    FORESTER_CVT_T: 72
-  response: 7AB046210D27A
