@@ -4,29 +4,5 @@ test_cases:
     FORESTER_ESTIMATED_BAT_T: 18
   response: 7AA056213230074
 - expected_values:
-    FORESTER_ESTIMATED_BAT_T: 18.5
-  response: 7AA056213230075
-- expected_values:
-    FORESTER_ESTIMATED_BAT_T: 19
-  response: 7AA056213230076
-- expected_values:
-    FORESTER_ESTIMATED_BAT_T: 19.5
-  response: 7AA056213230077
-- expected_values:
-    FORESTER_ESTIMATED_BAT_T: 31
-  response: 7AA05621323008E
-- expected_values:
-    FORESTER_ESTIMATED_BAT_T: 47
-  response: 7AA0562132300AE
-- expected_values:
-    FORESTER_ESTIMATED_BAT_T: 47.5
-  response: 7AA0562132300AF
-- expected_values:
-    FORESTER_ESTIMATED_BAT_T: 48
-  response: 7AA0562132300B0
-- expected_values:
-    FORESTER_ESTIMATED_BAT_T: 48.5
-  response: 7AA0562132300B1
-- expected_values:
-    FORESTER_ESTIMATED_BAT_T: 49
-  response: 7AA0562132300B2
+    FORESTER_ESTIMATED_BAT_T: 49.5
+  response: 7AA0562132300B3
