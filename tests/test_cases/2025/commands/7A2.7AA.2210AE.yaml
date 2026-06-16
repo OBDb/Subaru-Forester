@@ -7,6 +7,9 @@ test_cases:
     FORESTER_CPC_VALVE_DUTY_CYCLE: 4.70588
   response: 7AA046210AE0C
 - expected_values:
+    FORESTER_CPC_VALVE_DUTY_CYCLE: 5.88235
+  response: 7AA046210AE0F
+- expected_values:
     FORESTER_CPC_VALVE_DUTY_CYCLE: 17.64706
   response: 7AA046210AE2D
 - expected_values:

@@ -4,6 +4,9 @@ test_cases:
     FORESTER_ALTERNATOR_DUTY: 68
   response: 7AA046210B244
 - expected_values:
+    FORESTER_ALTERNATOR_DUTY: 76
+  response: 7AA046210B24C
+- expected_values:
     FORESTER_ALTERNATOR_DUTY: 77
   response: 7AA046210B24D
 - expected_values:
