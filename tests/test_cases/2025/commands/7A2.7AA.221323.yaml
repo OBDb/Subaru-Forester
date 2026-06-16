@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     FORESTER_ESTIMATED_BAT_T: 48.5
   response: 7AA0562132300B1
+- expected_values:
+    FORESTER_ESTIMATED_BAT_T: 49
+  response: 7AA0562132300B2
