@@ -232,6 +232,9 @@ unsupported_commands_by_ecu:
   - 7E0.220005
   - 7E0.22002F
   - 7E0.7E8.2210E7:FORESTER_EOT_V2
+  "7E1":
+  - 7E1.7E9.0105
+  - 7E1.7E9.010D
   "7E2":
   - 7E2.7EA.0104
   - 7E2.7EA.0105
