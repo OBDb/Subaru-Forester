@@ -1,0 +1,5 @@
+command_id: 7E7.7EF.222014
+test_cases:
+- expected_values:
+    FORESTER_12V_SOC_CONTROL: 100
+  response: 7EF04622014C8

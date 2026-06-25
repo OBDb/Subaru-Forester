@@ -1,0 +1,8 @@
+command_id: 7E6.7EE.221065
+test_cases:
+- expected_values:
+    FORESTER_INVERTER_T_ESTIMATED: 29
+  response: 7EE046210654F
+- expected_values:
+    FORESTER_INVERTER_T_ESTIMATED: 87
+  response: 7EE0462106589

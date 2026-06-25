@@ -1,0 +1,11 @@
+command_id: 7A2.221135|t=64,fc=1
+test_cases:
+- expected_values:
+    FORESTER_12V_C: 0
+  response: '7E80462113580'
+- expected_values:
+    FORESTER_12V_C: 1
+  response: '7E80462113581'
+- expected_values:
+    FORESTER_12V_C: 3
+  response: '7E80462113583'
