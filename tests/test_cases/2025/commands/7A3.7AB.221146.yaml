@@ -1,0 +1,11 @@
+command_id: 7A3.7AB.221146
+test_cases:
+- expected_values:
+    FORESTER_PRIMARY_PULLEY_SPEED: 0
+  response: 7AB056211460000
+- expected_values:
+    FORESTER_PRIMARY_PULLEY_SPEED: 1270
+  response: 7AB0562114604F6
+- expected_values:
+    FORESTER_PRIMARY_PULLEY_SPEED: 1324
+  response: 7AB05621146052C

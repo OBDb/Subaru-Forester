@@ -1,0 +1,11 @@
+command_id: 7A2.2212ED|t=64,fc=1
+test_cases:
+- expected_values:
+    FORESTER_MAF_AVG: 0
+  response: 7AA056212ED0000
+- expected_values:
+    FORESTER_MAF_AVG: 20.43
+  response: 7AA056212ED07FB
+- expected_values:
+    FORESTER_MAF_AVG: 60.61
+  response: 7AA056212ED17AD
