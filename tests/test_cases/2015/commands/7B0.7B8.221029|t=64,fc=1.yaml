@@ -1,0 +1,32 @@
+command_id: 7B0.7B8.221029|t=64,fc=1
+test_cases:
+- expected_values:
+    FORESTER_STEER_ANGLE: 0
+  response: 7B8056210290000
+- expected_values:
+    FORESTER_STEER_ANGLE: 13
+  response: 7B805621029000D
+- expected_values:
+    FORESTER_STEER_ANGLE: 17
+  response: 7B8056210290011
+- expected_values:
+    FORESTER_STEER_ANGLE: 18
+  response: 7B8056210290012
+- expected_values:
+    FORESTER_STEER_ANGLE: 24
+  response: 7B8056210290018
+- expected_values:
+    FORESTER_STEER_ANGLE: 75
+  response: 7B805621029004B
+- expected_values:
+    FORESTER_STEER_ANGLE: 212
+  response: 7B80562102900D4
+- expected_values:
+    FORESTER_STEER_ANGLE: 274
+  response: 7B8056210290112
+- expected_values:
+    FORESTER_STEER_ANGLE: -26
+  response: 7B805621029FFE6
+- expected_values:
+    FORESTER_STEER_ANGLE: -4
+  response: 7B805621029FFFC

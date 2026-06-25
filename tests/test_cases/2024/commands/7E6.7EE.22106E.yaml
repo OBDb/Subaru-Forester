@@ -1,0 +1,8 @@
+command_id: 7E6.7EE.22106E
+test_cases:
+- expected_values:
+    FORESTER_DRIVEMOTOR_T_B: 23
+  response: 7EE0462106E4E
+- expected_values:
+    FORESTER_DRIVEMOTOR_T_B: 51
+  response: 7EE0462106E6A
