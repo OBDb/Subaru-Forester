@@ -1,0 +1,8 @@
+command_id: 7E7.7EF.222061
+test_cases:
+- expected_values:
+    FORESTER_ENGINE_TORQUE_UPPER_ECM: 0
+  response: 7EF0462206100
+- expected_values:
+    FORESTER_ENGINE_TORQUE_UPPER_ECM: 174.4
+  response: 7EF046220616D
