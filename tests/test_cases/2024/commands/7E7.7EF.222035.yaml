@@ -1,0 +1,11 @@
+command_id: 7E7.7EF.222035
+test_cases:
+- expected_values:
+    FORESTER_ELECTRIC_OIL_PUMP_CURRENT: 0
+  response: 7EF0462203500
+- expected_values:
+    FORESTER_ELECTRIC_OIL_PUMP_CURRENT: 3
+  response: 7EF0462203530
+- expected_values:
+    FORESTER_ELECTRIC_OIL_PUMP_CURRENT: 3.6875
+  response: 7EF046220353B
