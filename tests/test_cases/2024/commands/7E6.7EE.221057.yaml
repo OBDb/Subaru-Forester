@@ -1,0 +1,11 @@
+command_id: 7E6.7EE.221057
+test_cases:
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_TARGET: 0
+  response: 7EE056210570000
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_TARGET: -16.8
+  response: 7EE05621057FF58
+- expected_values:
+    FORESTER_DRIVEMOTOR_TORQUE_TARGET: -0.1
+  response: 7EE05621057FFFF

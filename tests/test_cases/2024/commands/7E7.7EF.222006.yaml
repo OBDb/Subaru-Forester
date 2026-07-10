@@ -1,0 +1,11 @@
+command_id: 7E7.7EF.222006
+test_cases:
+- expected_values:
+    FORESTER_ENGINE_TORQUE_TARGET: 0
+  response: 7EF056220062710
+- expected_values:
+    FORESTER_ENGINE_TORQUE_TARGET: 101.3
+  response: 7EF056220062B05
+- expected_values:
+    FORESTER_ENGINE_TORQUE_TARGET: 126.1
+  response: 7EF056220062BFD

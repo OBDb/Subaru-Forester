@@ -1,0 +1,26 @@
+command_id: 7A2.7AA.2210DE
+test_cases:
+- expected_values:
+    FORESTER_THROTTLE_MOTOR_DUTY: -13.76
+  response: 7AA046210DE6E
+- expected_values:
+    FORESTER_THROTTLE_MOTOR_DUTY: -12.192
+  response: 7AA046210DE70
+- expected_values:
+    FORESTER_THROTTLE_MOTOR_DUTY: -10.624
+  response: 7AA046210DE72
+- expected_values:
+    FORESTER_THROTTLE_MOTOR_DUTY: -9.84
+  response: 7AA046210DE73
+- expected_values:
+    FORESTER_THROTTLE_MOTOR_DUTY: -9.056
+  response: 7AA046210DE74
+- expected_values:
+    FORESTER_THROTTLE_MOTOR_DUTY: -6.704
+  response: 7AA046210DE77
+- expected_values:
+    FORESTER_THROTTLE_MOTOR_DUTY: -5.136
+  response: 7AA046210DE79
+- expected_values:
+    FORESTER_THROTTLE_MOTOR_DUTY: 13.68
+  response: 7AA046210DE91
