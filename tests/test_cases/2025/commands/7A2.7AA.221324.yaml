@@ -1,8 +1,8 @@
 command_id: 7A2.7AA.221324
 test_cases:
 - expected_values:
-    FORESTER_REMAINING_BAT_CAPACITY: 92.1
-  response: 7AA056213240399
+    FORESTER_REMAINING_BAT_CAPACITY: 89.1
+  response: 7AA05621324037B
 - expected_values:
     FORESTER_REMAINING_BAT_CAPACITY: 100
   response: 7AA0562132403E8
