@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "746", "cmd": {"22": "1032"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2017 },
+{ "hdr": "746", "cmd": {"22": "1032"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017], "from": 2019 },
   "signals": [
     {"id": "FORESTER_STEER_ANGLE_746", "path": "Control", "fmt": { "len": 8, "max": 635, "min": -640, "mul": 5, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle, v2"}
   ]},
@@ -45,7 +45,7 @@
   "signals": [
     {"id": "FORESTER_EGT_DPF_INLET", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Exhaust gas temperature at DPF inlet"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10A1"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10A1"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017], "from": 2019 },
   "signals": [
     {"id": "FORESTER_MAF_VOLTAGE", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Mass airflow sensor voltage"}
   ]},
@@ -65,7 +65,7 @@
   "signals": [
     {"id": "FORESTER_RADIATOR_FAN", "path": "ECU", "fmt": { "len": 8, "max": 200, "unit": "percent" }, "name": "Radiator fan control"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10AE"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10AE"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_CPC_VALVE_DUTY_CYCLE", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Canister purge control valve duty cycle"}
   ]},
@@ -73,7 +73,7 @@
   "signals": [
     {"id": "FORESTER_EGR_STEPS", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Exhaust gas recirculation steps"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B2"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B2"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_ALTERNATOR_DUTY", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Alternator duty"}
   ]},
@@ -81,23 +81,23 @@
   "signals": [
     {"id": "FORESTER_FUEL_PUMP_DUTY", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel pump duty"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B4"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B4"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_INTAKE_VVT_ADVANCE_RIGHT", "path": "ECU", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Intake VVT advance angle right"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B5"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B5"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_INTAKE_VVT_ADVANCE_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "degrees" }, "name": "Intake VVT advance angle left"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B6"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B6"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_OCV_DUTY_RIGHT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oil control valve duty right"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B7"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10B7"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_OCV_DUTY_LEFT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oil control valve duty left"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10BE"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10BE"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_A_F_SENSOR_1", "path": "ECU", "fmt": { "len": 8, "max": 1.99, "mul": 1.99, "div": 255, "unit": "scalar" }, "name": "A/F sensor #1"}
   ]},
@@ -113,11 +113,11 @@
   "signals": [
     {"id": "FORESTER_EWG_VALVE_ACTUAL_POSITION", "path": "ECU", "fmt": { "len": 16, "max": 30, "min": -10, "mul": 40, "div": 65535, "add": -10, "unit": "millimeters" }, "name": "Electric waste gate valve actual position value"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10DE"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10DE"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_THROTTLE_MOTOR_DUTY", "path": "ECU", "fmt": { "len": 8, "max": 99.92, "min": -100, "mul": 0.784, "add": -100, "unit": "percent" }, "name": "Throttle motor duty"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10E3"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10E3"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_CRUISE_VSS_T", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise speed, set"}
   ]},
@@ -157,7 +157,7 @@
   "signals": [
     {"id": "FORESTER_ROUGHNESS_MONITOR_3", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #3"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110E"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "110E"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_ROUGHNESS_MONITOR_4", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #4"}
   ]},
@@ -305,23 +305,23 @@
   "signals": [
     {"id": "FORESTER_CC_SET_COAST_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control set/coast switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1232"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1232"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017], "from": 2019 },
   "signals": [
     {"id": "FORESTER_CC_RESUME_ACCELERATE_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control resume/accelerate switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1233"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1233"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_BRAKE_SWITCH", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1234"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1234"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "FORESTER_CC_MAIN_TOGGLE_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control main toggle switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "124A"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "124A"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_CC_CANCEL_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control cancel switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "124C"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "124C"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_OIL_LEVEL_SWITCH", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil level switch"}
   ]},
@@ -345,11 +345,11 @@
   "signals": [
     {"id": "FORESTER_ENGINE_STARTING_TIME", "path": "ECU", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "milliseconds" }, "name": "Engine starting time"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1314"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1314"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_MONITOR_1", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Cylinder monitor #1"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1315"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1315"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_MONITOR_2", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Cylinder monitor #2"}
   ]},
@@ -357,7 +357,7 @@
   "signals": [
     {"id": "FORESTER_MONITOR_3", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Cylinder monitor #3"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1317"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1317"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_MONITOR_4", "path": "ECU", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Cylinder monitor #4"}
   ]},
@@ -365,11 +365,11 @@
   "signals": [
     {"id": "FORESTER_BAT_TERMINAL_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Battery terminal voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1322"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1322"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "FORESTER_BAT_CHARGE_DISCHARGE_CURRENT", "path": "Battery", "fmt": { "len": 32, "max": 4292967.2949999999, "min": -2000, "mul": 10, "div": 10000, "add": -2000, "unit": "amps" }, "name": "Battery charge/discharge current"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1323"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1323"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_ESTIMATED_BAT_T", "path": "Battery", "fmt": { "len": 16, "max": 32727.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Estimated battery temperature"}
   ]},
@@ -449,27 +449,27 @@
   "signals": [
     {"id": "FORESTER_AWD_SOLENOID_ACTUAL_CURRENT", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "All-wheel drive solenoid actual current"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1024"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1024"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2026 },
   "signals": [
     {"id": "FORESTER_FR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 3686, "mul": 562.5, "div": 10000, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1025"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1025"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2026 },
   "signals": [
     {"id": "FORESTER_FL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 3686, "mul": 562.5, "div": 10000, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1026"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1026"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2026 },
   "signals": [
     {"id": "FORESTER_RR_VSS", "path": "Tires", "fmt": { "len": 16, "max": 3686, "mul": 562.5, "div": 10000, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1027"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1027"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2026 },
   "signals": [
     {"id": "FORESTER_RL_VSS", "path": "Tires", "fmt": { "len": 16, "max": 3686, "mul": 562.5, "div": 10000, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1029"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "tmo": "64", "fcm1": true, "cmd": {"22": "1029"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2017], "from": 2026 },
   "signals": [
     {"id": "FORESTER_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32767, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2017, 2018], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "tmo": "64", "fcm1": true, "cmd": {"22": "10E5"}, "freq": 15, "dbgfilter": { "to": 2014, "years": [2017], "from": 2026 },
   "signals": [
     {"id": "FORESTER_ODO", "path": "Trips", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
