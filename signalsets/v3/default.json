@@ -129,7 +129,7 @@
   "signals": [
     {"id": "FORESTER_FUEL_TANK_AIR_PRESSURE", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "unknown" }, "name": "Fuel tank air pressure"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E8"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "10E8"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "FORESTER_OSV_DUTY_RIGHT", "path": "ECU", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oil supply value, duty right"}
   ]},
@@ -161,11 +161,11 @@
   "signals": [
     {"id": "FORESTER_ROUGHNESS_MONITOR_4", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Roughness monitor #4"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1116"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1116"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "FORESTER_FINAL_INJECTION_AMOUNT_MM_ST", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Final injection amount"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1118"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1118"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "FORESTER_TARGET_INTAKE_MANIFOLD_PRESSURE", "path": "ECU", "fmt": { "len": 8, "max": 50, "unit": "kilopascal" }, "name": "Target intake manifold pressure"}
   ]},
@@ -197,7 +197,7 @@
   "signals": [
     {"id": "FORESTER_INTERIOR_HEATER", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Interior heater"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "112D"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "112D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "FORESTER_QUANTITY_CORRECTION_1", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Quantity correction cylinder #1"}
   ]},
@@ -241,7 +241,7 @@
   "signals": [
     {"id": "FORESTER_DPF_REGENERATION_COUNT", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Diesel particulate filter regeneration count"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1158"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1158"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "FORESTER_MQI_FLV_1_1", "path": "ECU", "fmt": {           "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #1 cylinder #1"},
     {"id": "FORESTER_MQI_FLV_2_1", "path": "ECU", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #2 cylinder #1"},
@@ -257,7 +257,7 @@
     {"id": "FORESTER_MQI_FLV_4_2", "path": "ECU", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #4 cylinder #2"},
     {"id": "FORESTER_MQI_FLV_5_2", "path": "ECU", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #5 cylinder #2"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "115A"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "115A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "FORESTER_MQI_FLV_1_3", "path": "ECU", "fmt": {           "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #1 cylinder #3"},
     {"id": "FORESTER_MQI_FLV_2_3", "path": "ECU", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "milliseconds" }, "name": "Micro-quantity-injection final learning value #2 cylinder #3"},
@@ -301,7 +301,7 @@
   "signals": [
     {"id": "FORESTER_STOP_LIGHT_SWITCH", "path": "Lights", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Stop light switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1231"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1231"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FORESTER_CC_SET_COAST_SWITCH", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control set/coast switch"}
   ]},
@@ -333,7 +333,7 @@
   "signals": [
     {"id": "FORESTER_SUB_FUEL_PUMP_RELAY_SWITCH", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Sub fuel pump relay switch"}
   ]},
-{ "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "1254"}, "freq": 1,
+{ "hdr": "7A2", "rax": "7AA", "cmd": {"22": "1254"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "FORESTER_INJECTOR_LEARNING_SWITCH", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Injector learning switch"}
   ]},
