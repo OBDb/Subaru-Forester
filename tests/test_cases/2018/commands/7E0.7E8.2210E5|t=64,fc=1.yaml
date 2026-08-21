@@ -4,8 +4,8 @@ test_cases:
     FORESTER_ODO: 125102
   response: 7E8056210E5F457
 - expected_values:
-    FORESTER_ODO: 125364
-  response: 7E8056210E5F4DA
-- expected_values:
     FORESTER_ODO: 125444
   response: 7E8056210E5F502
+- expected_values:
+    FORESTER_ODO: 125920
+  response: 7E8056210E5F5F0
