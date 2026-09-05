@@ -4,5 +4,5 @@ test_cases:
     FORESTER_EOT_V2: 27
   response: 7E8046210E743
 - expected_values:
-    FORESTER_EOT_V2: 97
-  response: 7E8046210E789
+    FORESTER_EOT_V2: 105
+  response: 7E8046210E791
