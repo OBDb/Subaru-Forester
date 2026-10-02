@@ -4,8 +4,29 @@ test_cases:
     FORESTER_MAF_AVG: 0
   response: 7AA056212ED0000
 - expected_values:
+    FORESTER_MAF_AVG: 2.92
+  response: 7AA056212ED0124
+- expected_values:
     FORESTER_MAF_AVG: 7.39
   response: 7AA056212ED02E3
 - expected_values:
     FORESTER_MAF_AVG: 8.85
   response: 7AA056212ED0375
+- expected_values:
+    FORESTER_MAF_AVG: 15.36
+  response: 7AA056212ED0600
+- expected_values:
+    FORESTER_MAF_AVG: 21.28
+  response: 7AA056212ED0850
+- expected_values:
+    FORESTER_MAF_AVG: 21.3
+  response: 7AA056212ED0852
+- expected_values:
+    FORESTER_MAF_AVG: 24.06
+  response: 7AA056212ED0966
+- expected_values:
+    FORESTER_MAF_AVG: 25.68
+  response: 7AA056212ED0A08
+- expected_values:
+    FORESTER_MAF_AVG: 26.23
+  response: 7AA056212ED0A3F

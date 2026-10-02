@@ -7,5 +7,23 @@ test_cases:
     FORESTER_INTAKE_VVT_ADVANCE_RIGHT: 0
   response: 7AA046210B432
 - expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_RIGHT: 1
+  response: 7AA046210B433
+- expected_values:
     FORESTER_INTAKE_VVT_ADVANCE_RIGHT: 2
   response: 7AA046210B434
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_RIGHT: 24
+  response: 7AA046210B44A
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_RIGHT: 25
+  response: 7AA046210B44B
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_RIGHT: 26
+  response: 7AA046210B44C
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_RIGHT: 30
+  response: 7AA046210B450
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_RIGHT: 34
+  response: 7AA046210B454

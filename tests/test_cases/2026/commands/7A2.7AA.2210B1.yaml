@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     FORESTER_EGR_STEPS: 6
   response: 7AA046210B106
+- expected_values:
+    FORESTER_EGR_STEPS: 29
+  response: 7AA046210B11D
+- expected_values:
+    FORESTER_EGR_STEPS: 33
+  response: 7AA046210B121
+- expected_values:
+    FORESTER_EGR_STEPS: 34
+  response: 7AA046210B122
+- expected_values:
+    FORESTER_EGR_STEPS: 35
+  response: 7AA046210B123
+- expected_values:
+    FORESTER_EGR_STEPS: 36
+  response: 7AA046210B124
+- expected_values:
+    FORESTER_EGR_STEPS: 38
+  response: 7AA046210B126
+- expected_values:
+    FORESTER_EGR_STEPS: 46
+  response: 7AA046210B12E
