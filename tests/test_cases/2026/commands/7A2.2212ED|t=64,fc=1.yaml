@@ -1,0 +1,5 @@
+command_id: 7A2.2212ED|t=64,fc=1
+test_cases:
+- expected_values:
+    FORESTER_MAF_AVG: 0
+  response: 7AA056212ED0000
