@@ -7,5 +7,14 @@ test_cases:
     FORESTER_OCV_DUTY_RIGHT: 20.78431
   response: 7AA046210B635
 - expected_values:
+    FORESTER_OCV_DUTY_RIGHT: 44.31373
+  response: 7AA046210B671
+- expected_values:
+    FORESTER_OCV_DUTY_RIGHT: 45.4902
+  response: 7AA046210B674
+- expected_values:
+    FORESTER_OCV_DUTY_RIGHT: 46.27451
+  response: 7AA046210B676
+- expected_values:
     FORESTER_OCV_DUTY_RIGHT: 46.66667
   response: 7AA046210B677

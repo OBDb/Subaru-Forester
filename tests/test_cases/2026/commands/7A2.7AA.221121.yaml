@@ -4,5 +4,26 @@ test_cases:
     FORESTER_TARGET_ENGINE_SPEED: 1150
   response: 7AA0562112111F8
 - expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1300
+  response: 7AA056211211450
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1450
+  response: 7AA0562112116A8
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1500
+  response: 7AA056211211770
+- expected_values:
     FORESTER_TARGET_ENGINE_SPEED: 1530
   response: 7AA0562112117E8
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1650
+  response: 7AA0562112119C8
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1688.25
+  response: 7AA056211211A61
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1700
+  response: 7AA056211211A90
+- expected_values:
+    FORESTER_TARGET_ENGINE_SPEED: 1825
+  response: 7AA056211211C84

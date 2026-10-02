@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     FORESTER_INTAKE_VVT_ADVANCE_LEFT: 1
   response: 7AA046210B533
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_LEFT: 2
+  response: 7AA046210B534
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_LEFT: 25
+  response: 7AA046210B54B
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_LEFT: 26
+  response: 7AA046210B54C
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_LEFT: 30
+  response: 7AA046210B550
+- expected_values:
+    FORESTER_INTAKE_VVT_ADVANCE_LEFT: 35
+  response: 7AA046210B555
