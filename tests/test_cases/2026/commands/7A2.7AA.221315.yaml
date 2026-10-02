@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FORESTER_MONITOR_2: 0
   response: 7AA056213150000
+- expected_values:
+    FORESTER_MONITOR_2: 1524.25
+  response: 7AA0562131517D1
