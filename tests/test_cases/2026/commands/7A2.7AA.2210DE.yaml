@@ -4,20 +4,5 @@ test_cases:
     FORESTER_THROTTLE_MOTOR_DUTY: -39.632
   response: 7AA046210DE4D
 - expected_values:
-    FORESTER_THROTTLE_MOTOR_DUTY: -12.976
-  response: 7AA046210DE6F
-- expected_values:
-    FORESTER_THROTTLE_MOTOR_DUTY: -11.408
-  response: 7AA046210DE71
-- expected_values:
-    FORESTER_THROTTLE_MOTOR_DUTY: -10.624
-  response: 7AA046210DE72
-- expected_values:
-    FORESTER_THROTTLE_MOTOR_DUTY: -9.84
-  response: 7AA046210DE73
-- expected_values:
-    FORESTER_THROTTLE_MOTOR_DUTY: -7.488
-  response: 7AA046210DE76
-- expected_values:
-    FORESTER_THROTTLE_MOTOR_DUTY: -6.704
-  response: 7AA046210DE77
+    FORESTER_THROTTLE_MOTOR_DUTY: 18.384
+  response: 7AA046210DE97

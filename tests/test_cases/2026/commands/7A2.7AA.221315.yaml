@@ -4,5 +4,29 @@ test_cases:
     FORESTER_MONITOR_2: 0
   response: 7AA056213150000
 - expected_values:
+    FORESTER_MONITOR_2: 1142
+  response: 7AA0562131511D8
+- expected_values:
+    FORESTER_MONITOR_2: 1460.5
+  response: 7AA0562131516D2
+- expected_values:
     FORESTER_MONITOR_2: 1524.25
   response: 7AA0562131517D1
+- expected_values:
+    FORESTER_MONITOR_2: 1692
+  response: 7AA056213151A70
+- expected_values:
+    FORESTER_MONITOR_2: 1719
+  response: 7AA056213151ADC
+- expected_values:
+    FORESTER_MONITOR_2: 1887.75
+  response: 7AA056213151D7F
+- expected_values:
+    FORESTER_MONITOR_2: 1952
+  response: 7AA056213151E80
+- expected_values:
+    FORESTER_MONITOR_2: 1957.75
+  response: 7AA056213151E97
+- expected_values:
+    FORESTER_MONITOR_2: 1993
+  response: 7AA056213151F24

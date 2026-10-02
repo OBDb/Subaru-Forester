@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     FORESTER_ODO_7A2_10E5: 38
   response: 7AA056210E50013
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 40
+  response: 7AA056210E50014
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 42
+  response: 7AA056210E50015
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 44
+  response: 7AA056210E50016
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 46
+  response: 7AA056210E50017
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 48
+  response: 7AA056210E50018
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 50
+  response: 7AA056210E50019
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 52
+  response: 7AA056210E5001A

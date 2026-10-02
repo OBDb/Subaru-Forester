@@ -4,8 +4,8 @@ test_cases:
     FORESTER_MONITOR_4: 0
   response: 7AA056213170000
 - expected_values:
-    FORESTER_MONITOR_4: 1422
-  response: 7AA056213171638
+    FORESTER_MONITOR_4: 1725.5
+  response: 7AA056213171AF6
 - expected_values:
-    FORESTER_MONITOR_4: 1541.25
-  response: 7AA056213171815
+    FORESTER_MONITOR_4: 1956.25
+  response: 7AA056213171E91
