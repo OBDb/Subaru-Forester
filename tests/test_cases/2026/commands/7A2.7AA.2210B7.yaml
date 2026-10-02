@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FORESTER_OCV_DUTY_LEFT: 0
   response: 7AA046210B700
+- expected_values:
+    FORESTER_OCV_DUTY_LEFT: 20.78431
+  response: 7AA046210B735
+- expected_values:
+    FORESTER_OCV_DUTY_LEFT: 43.52941
+  response: 7AA046210B76F
