@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     FORESTER_A_F_SENSOR_1: 0.9911
   response: 7AA046210BE7F
+- expected_values:
+    FORESTER_A_F_SENSOR_1: 0.9989
+  response: 7AA046210BE80
+- expected_values:
+    FORESTER_A_F_SENSOR_1: 1.00671
+  response: 7AA046210BE81
+- expected_values:
+    FORESTER_A_F_SENSOR_1: 1.01451
+  response: 7AA046210BE82
