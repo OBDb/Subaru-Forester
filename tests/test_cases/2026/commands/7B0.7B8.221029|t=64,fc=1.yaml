@@ -4,8 +4,8 @@ test_cases:
     FORESTER_STEER_ANGLE: 0
   response: 7B8056210290000
 - expected_values:
-    FORESTER_STEER_ANGLE: -14
-  response: 7B805621029FFF2
+    FORESTER_STEER_ANGLE: -192
+  response: 7B805621029FF40
 - expected_values:
     FORESTER_STEER_ANGLE: -1
   response: 7B805621029FFFF

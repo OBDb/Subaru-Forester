@@ -1,8 +1,8 @@
 command_id: 7A2.7AA.2210BE
 test_cases:
 - expected_values:
-    FORESTER_A_F_SENSOR_1: 0.95988
-  response: 7AA046210BE7B
+    FORESTER_A_F_SENSOR_1: 0.77259
+  response: 7AA046210BE63
 - expected_values:
     FORESTER_A_F_SENSOR_1: 1.24082
   response: 7AA046210BE9F
