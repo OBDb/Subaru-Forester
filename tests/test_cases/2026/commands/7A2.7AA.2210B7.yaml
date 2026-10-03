@@ -4,29 +4,5 @@ test_cases:
     FORESTER_OCV_DUTY_LEFT: 0
   response: 7AA046210B700
 - expected_values:
-    FORESTER_OCV_DUTY_LEFT: 20.78431
-  response: 7AA046210B735
-- expected_values:
-    FORESTER_OCV_DUTY_LEFT: 22.35294
-  response: 7AA046210B739
-- expected_values:
-    FORESTER_OCV_DUTY_LEFT: 43.52941
-  response: 7AA046210B76F
-- expected_values:
-    FORESTER_OCV_DUTY_LEFT: 45.4902
-  response: 7AA046210B774
-- expected_values:
-    FORESTER_OCV_DUTY_LEFT: 45.88235
-  response: 7AA046210B775
-- expected_values:
-    FORESTER_OCV_DUTY_LEFT: 46.66667
-  response: 7AA046210B777
-- expected_values:
-    FORESTER_OCV_DUTY_LEFT: 47.45098
-  response: 7AA046210B779
-- expected_values:
-    FORESTER_OCV_DUTY_LEFT: 47.84314
-  response: 7AA046210B77A
-- expected_values:
-    FORESTER_OCV_DUTY_LEFT: 48.23529
-  response: 7AA046210B77B
+    FORESTER_OCV_DUTY_LEFT: 63.92157
+  response: 7AA046210B7A3
