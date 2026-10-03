@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     FORESTER_ODO_7A2_10E5: 512
   response: 7AA056210E50100
+- expected_values:
+    FORESTER_ODO_7A2_10E5: 2438
+  response: 7AA056210E504C3
