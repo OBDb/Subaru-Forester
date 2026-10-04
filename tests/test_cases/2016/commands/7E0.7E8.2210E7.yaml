@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2210E7
 test_cases:
 - expected_values:
-    FORESTER_EOT_V2: 24
-  response: 7E8046210E740
+    FORESTER_EOT_V2: 22
+  response: 7E8046210E73E
 - expected_values:
     FORESTER_EOT_V2: 106
   response: 7E8046210E792
