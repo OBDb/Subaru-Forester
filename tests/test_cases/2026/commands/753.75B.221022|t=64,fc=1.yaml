@@ -19,6 +19,12 @@ test_cases:
     FORESTER_TP_RR: 36.8
   response: 75B07621022B4B8B8B1
 - expected_values:
+    FORESTER_TP_FL: 37
+    FORESTER_TP_FR: 36.4
+    FORESTER_TP_RL: 37.6
+    FORESTER_TP_RR: 37
+  response: 75B07621022BCB9B6B9
+- expected_values:
     FORESTER_TP_FL: 37.8
     FORESTER_TP_FR: 34.4
     FORESTER_TP_RL: 38
