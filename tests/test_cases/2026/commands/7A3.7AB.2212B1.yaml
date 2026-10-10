@@ -1,0 +1,14 @@
+command_id: 7A3.7AB.2212B1
+test_cases:
+- expected_values:
+    FORESTER_ACTUAL_LINE_PRESSURE: 0.58399
+  response: 7AB056212B105D7
+- expected_values:
+    FORESTER_ACTUAL_LINE_PRESSURE: 1.10392
+  response: 7AB056212B10B0A
+- expected_values:
+    FORESTER_ACTUAL_LINE_PRESSURE: 1.29572
+  response: 7AB056212B10CF5
+- expected_values:
+    FORESTER_ACTUAL_LINE_PRESSURE: 3.08442
+  response: 7AB056212B11ED8
