@@ -1,0 +1,14 @@
+command_id: 7A3.7AB.221141
+test_cases:
+- expected_values:
+    FORESTER_ACTUAL_PRIMARY_PRESSURE: 0.10938
+  response: 7AB056211410118
+- expected_values:
+    FORESTER_ACTUAL_PRIMARY_PRESSURE: 0.20039
+  response: 7AB056211410201
+- expected_values:
+    FORESTER_ACTUAL_PRIMARY_PRESSURE: 0.2918
+  response: 7AB0562114102EB
+- expected_values:
+    FORESTER_ACTUAL_PRIMARY_PRESSURE: 1.47815
+  response: 7AB056211410EC8
