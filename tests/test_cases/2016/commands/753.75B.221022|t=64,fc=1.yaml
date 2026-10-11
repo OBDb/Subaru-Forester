@@ -7,11 +7,11 @@ test_cases:
     FORESTER_TP_RR: null
   response: '75B 07 62 10 22 00 00 00 00 '
 - expected_values:
-    FORESTER_TP_FL: null
-    FORESTER_TP_FR: null
-    FORESTER_TP_RL: null
-    FORESTER_TP_RR: null
-  response: 75B0762102200000000
+    FORESTER_TP_FL: 29.2
+  response: 75B0762102200000092
+- expected_values:
+    FORESTER_TP_FR: 29.2
+  response: 75B0762102200009200
 - expected_values:
     FORESTER_TP_FL: 43.4
     FORESTER_TP_FR: 41.8
