@@ -14,5 +14,10 @@ test_cases:
     7E80341067A
     7E80341067B
 - expected_values:
+    SHRTFT1: 0
+  response: |-
+    7E803410680
+    7E803410680
+- expected_values:
     SHRTFT1: 18.75
   response: '7E803410698'
